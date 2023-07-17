@@ -26,4 +26,30 @@
     color: #fff;
 }
 
+/* Hero Styling */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Section Styling */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 /* More Styles */
