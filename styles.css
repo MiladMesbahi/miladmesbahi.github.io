@@ -5,7 +5,7 @@ html {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: #f0f0f0;
-    background: #282828;
+    background: #000000;
 }
 
 /* Header Styling */
@@ -31,9 +31,15 @@ html {
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    z-index: 1;
+    /* Add this line */
 }
 
+.header-content {
+    position: relative;
+    z-index: 2;
+    /* Add this line */
+}
 
 .header-content h1 {
     font-size: 3em;
@@ -95,11 +101,11 @@ html {
     line-height: 1.6em;
 }
 
-/* Footer Styling */
-footer {
-    background: #212121;
+/* Footer */
+.bg-light {
+    background-color: #000000 !important;
 }
 
 footer p {
-    color: #f0f0f0;
+    color: #f0f0f0 !important;
 }
