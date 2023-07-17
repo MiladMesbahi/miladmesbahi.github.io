@@ -1,53 +1,89 @@
-/* Bold modern theme */
-
-/* Font */
-body {
-    font-family: 'Open Sans', sans-serif;
+/* Overall page styling */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0;
+    background: #282828;
 }
 
-/* Colors */
-:root {
-    --primary-color: #007bff;
-    --secondary-color: #6c757d;
-}
-
-/* Header */
+/* Header Styling */
 .header {
-    background-color: var(--primary-color);
-    color: #fff;
+    position: relative;
+    background: #212121;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* Navbar */
+.header-content h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #ff8f00;
+}
+
+/* Navigation Bar Styling */
 .navbar {
-    background-color: var(--secondary-color);
+    background: #212121 !important;
 }
 
-/* Hero */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #f0f0f0 !important;
+}
+
+.nav-item.active .nav-link {
+    color: #ff8f00 !important;
+}
+
+/* Main content styling */
+.container {
+    padding: 2em 0;
+}
+
 .hero {
-    background-color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 3em;
 }
 
-/* Sections */
-section {
-    padding: 80px 0;
-    background-color: #fff;
-    color: var(--secondary-color);
+.hero-content h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #ff8f00;
 }
 
-section h1,
-h2 {
-    font-weight: bold;
+.hero-content p {
+    color: #f0f0f0;
 }
 
-/* Footer */
+#about {
+    margin-bottom: 3em;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+#about h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #ff8f00;
+    margin-bottom: 1em;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+/* Footer Styling */
 footer {
-    background-color: var(--primary-color);
-    color: #fff;
+    background: #212121;
 }
 
-/* Responsive tweaks */
-@media (max-width: 768px) {
-    section {
-        padding: 40px 0;
-    }
+footer p {
+    color: #f0f0f0;
 }
