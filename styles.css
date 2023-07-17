@@ -11,13 +11,29 @@ html {
 /* Header Styling */
 .header {
     position: relative;
-    background: #212121;
+    background: url('https://thrivenextgen.com/wp-content/uploads/AdobeStock_162765779_45-scaled.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
 
 .header-content h1 {
     font-size: 3em;
