@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Technical Projects</title>
+    <title>Contact Me</title>
 
     <!-- Bootstrap & Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Milad Mesbahi - UCLA</a>
@@ -38,5 +37,45 @@
             </ul>
         </div>
     </nav>
-    <h1>Projects Page</h1>
-    <p>About page content...</p>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Contact Information</h2>
+                <div class="contact-info">
+                    <h3>Email</h3>
+                    <p>milad.n.mesbahi@gmail.com</p>
+
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/milad-mesbahi/" target="_blank">Click me</a></p>
+
+                    <h3>GitHub</h3>
+                    <p><a href="your-github-url" target="_blank">Coding stuff</a></p>
+
+                    <h3>Discord Username</h3>
+                    <p>miladmesbahi</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h2>Leave a Message</h2>
+                <form action="your-server-side-script" method="POST" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
