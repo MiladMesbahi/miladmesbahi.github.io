@@ -176,8 +176,9 @@ footer p {
     }
 }
 
-/* Add a border between project rows */
-.row.mb-4 {
+
+/* Add a border to the bottom of each project container */
+.project-container {
     border-bottom: 1px solid #ccc;
     /* Adjust color and thickness as needed */
     padding-bottom: 15px;
@@ -185,6 +186,7 @@ footer p {
     margin-bottom: 15px;
     /* Space below the border */
 }
+
 
 /* Ensure uniform size for images and videos */
 .project-media img,
