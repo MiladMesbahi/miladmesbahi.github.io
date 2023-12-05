@@ -176,18 +176,6 @@ footer p {
     }
 }
 
-
-/* Add a border to the bottom of each project container */
-.project-container {
-    border-bottom: 1px solid #ccc;
-    /* Adjust color and thickness as needed */
-    padding-bottom: 15px;
-    /* Space above the border */
-    margin-bottom: 15px;
-    /* Space below the border */
-}
-
-
 /* Ensure uniform size for images and videos */
 .project-media img,
 .project-media video {
@@ -197,4 +185,13 @@ footer p {
     /* Ensure full width within column */
     object-fit: cover;
     /* Crop to maintain aspect ratio */
+}
+
+.project-container {
+    border-bottom: 1px solid #ccc;
+    /* Adjust color and thickness as needed */
+    padding-bottom: 15px;
+    /* Space above the border */
+    margin-bottom: 15px;
+    /* Space below the border */
 }
