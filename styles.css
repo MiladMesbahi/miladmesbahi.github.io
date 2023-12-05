@@ -26,10 +26,14 @@ p,
     color: #f0f0f0;
 }
 
+
 /* Header Styling */
 .header {
     position: relative;
-    background: url('header-image-url') no-repeat center center fixed;
+    background: url('https://thrivenextgen.com/wp-content/uploads/AdobeStock_162765779_45-scaled.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     height: 80vh;
     display: flex;
@@ -37,6 +41,7 @@ p,
     align-items: center;
     text-align: center;
 }
+
 
 .header::after {
     content: "";
@@ -47,15 +52,21 @@ p,
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    /* Add this line */
 }
+
 
 .header-content {
     position: relative;
     z-index: 2;
+    /* Add this line */
 }
+
 
 .header-content h1 {
     font-size: 3em;
+    font-weight: 700;
+    color: #f0f0f0;
 }
 
 /* Navigation Bar Styling */
