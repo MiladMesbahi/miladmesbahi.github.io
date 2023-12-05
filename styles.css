@@ -131,49 +131,66 @@ footer p {
 #contact {
     padding-top: 50px;
     /* Adds more space at the top of the section */
+    padding-bottom: 50px;
+    /* Adds more space at the bottom of the section */
+    background-color: #ffffff;
+    /* Optional: Set a different background color if needed */
 }
 
 .contact-col,
 .video-col {
     padding: 20px;
     margin-bottom: 30px;
-    background-color: #f8f9fa;
-    /* Light background for separation */
-    border: 1px solid #ddd;
-    /* Subtle border */
-    border-radius: 10px;
-    /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Soft shadow for depth */
 }
 
 .contact-info h3 {
-    color: #333;
+    color: #212121;
+    /* Dark color for better contrast */
     margin-top: 20px;
+    font-weight: 600;
+    /* Slightly bolder font for headings */
 }
 
 .contact-info p,
 .contact-info a {
-    color: #555;
+    color: #333;
+    /* Dark grey color for readability */
     margin-bottom: 15px;
+    line-height: 1.6;
+    /* Improved line spacing for better readability */
+    font-size: 1.0em;
+    /* Adjust font size for clarity */
 }
 
 .embed-responsive {
     margin-top: 20px;
+    border-radius: 8px;
+    /* Rounded corners for the video frame */
+    overflow: hidden;
+    /* Ensures the corners remain rounded */
 }
 
-/* Media Queries for Responsiveness */
+/* Ensuring the responsiveness of the embed video */
+.embed-responsive iframe {
+    width: 100%;
+    height: auto;
+}
+
+/* Media Queries for smaller devices */
 @media (max-width: 768px) {
 
-    .header-content h1,
-    .hero-content h1,
-    #contact h2,
-    #about h2 {
-        font-size: 2em;
+    .contact-col,
+    .video-col {
+        padding: 15px;
     }
 
-    .contact-form {
-        padding: 0 15px;
+    .contact-info h3 {
+        font-size: 1.2em;
+    }
+
+    .contact-info p,
+    .contact-info a {
+        font-size: 0.9em;
     }
 }
 
