@@ -121,6 +121,12 @@ footer p {
     color: #f0f0f0 !important;
 }
 
+.video-focus-upper {
+    object-fit: cover;
+    object-position: top;
+    /* Focuses on the top part of the video */
+}
+
 /* Contact Section Styling */
 #contact {
     padding-top: 50px;
