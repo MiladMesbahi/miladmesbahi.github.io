@@ -59,8 +59,8 @@
                     interdisciplinary field of robotics.</p>
             </div>
             <div class="col-lg-12">
+                <!-- Existing project media row -->
                 <div class="row project-media">
-                    <!-- Multiple Image/Video Containers -->
                     <!-- Images -->
                     <div class="col-md-4 mb-3">
                         <img src="media_projects/Chassis.jpg" class="img-fluid" alt="Chassis Design">
@@ -68,48 +68,18 @@
                     <div class="col-md-4 mb-3">
                         <img src="media_projects/IMG_2116 2.JPG" class="img-fluid" alt="Autonomous Rover">
                     </div>
-                    <!-- Video Thumbnail -->
+                    <!-- Embedded Video -->
                     <div class="col-md-4 mb-3">
-                        <img src="path-to-video-thumbnail.jpg" class="img-fluid video-btn" alt="Video Thumbnail"
-                            id="myBtn">
+                        <video class="img-fluid" controls>
+                            <source src="media_projects/IMG_3454 2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
-            </div>
 
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <video width="100%" controls>
-                        <source src="media_projects/IMG_3454 2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-
-            <!-- Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-            <script>
-                var modal = document.getElementById("myModal");
-                var btn = document.getElementById("myBtn");
-                var span = document.getElementsByClassName("close")[0];
-
-                btn.onclick = function () {
-                    modal.style.display = "block";
-                }
-
-                span.onclick = function () {
-                    modal.style.display = "none";
-                }
-
-                window.onclick = function (event) {
-                    if (event.target == modal) {
-                        modal.style.display = "none";
-                    }
-                }
-            </script>
-</body>
+                <!-- Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>
