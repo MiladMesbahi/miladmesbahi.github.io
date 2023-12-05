@@ -2,14 +2,17 @@
 <html>
 
 <head>
-    <title>Work Experience</title>
-    <!-- Bootstrap & Custom Styles -->
+    <title>Technical Projects</title>
+
+    <!-- Bootstrap & Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -26,7 +29,7 @@
                     <a class="nav-link" href="Projects.html">Technical Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="experience.html">Work Experience</a>
+                    <a class="nav-link" href="experience.html">Technical sExperience</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -34,68 +37,109 @@
             </ul>
         </div>
     </nav>
-
     <!-- Main Content -->
     <div class="container mt-5 pt-4">
-        <h1 class="text-center mb-4">Professional Experience</h1>
-
-        <!-- Experience Section 1 -->
-        <div class="experience-section mb-5">
-            <h2>Mechanical Engineering Internship (Systems Testing)</h2>
-            <p class="text-muted">Jet Propulsion Laboratory - NASA/June 2023 - September 2023</p>
-            <p>My summer long internship concentrated on various different tasks within the Dynamics and Environments
-                Group at JPL. My main project was focused on evaluating chainmail solids (CMS) as a novel material for
-                damping and shock mitigation in aerospace applications. We aimed to harness the unique properties of
-                the CMS, such as low
-                density and adaptable stiffness, for effective vibration management. Our experimental procedure included
-                a meticulous design of a Data Acquisition System and strategic placement of accelerometers to capture
-                vibrational responses. The chainmail was subjected to random vibration profiles, and the results were
-                analyzed using Power Spectral Density (PSD) comparisons and other modal analysis tools.
-
-                Significant findings included a staggering -20dB reduction in transmissibility at critical lower
-                frequencies and up to a -30dB reduction at higher, shock-level ranges,
-                indicating the chainmail's effective damping capabilities. Finite Element Method (FEM) simulations
-                complemented our experimental observations, affirming the potential of CMS in aerospace applications.
-                The project's future focus will delve deeper into the chainmail's thermal properties and further tuning
-                for specific aerospace applications, which we explored breifly through its implementation with
-                cryocoolers. <a href="media_projects/Final Report (002)_RD2.pdf" target="_blank">View Final Report</a>
-            </p>
-            <!-- Optionally, add images or videos related to this experience -->
-            <!-- Media Content -->
-            <div class="col-lg-12">
-                <div class="col-md-4 mb-3">
-                    <img src="media_projects/TOPBLOCK.jpeg" class="img-fluid" alt="Related Image">
+        <!-- Added margin-top (mt-5) and padding-top (pt-4) to account for fixed navbar -->
+        <h1 class="text-center mb-4">Technical Projects</h1>
+        <!-- Project Item -->
+        <div class="project-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Mechanical Engineering Internship (Systems Testing)</h2>
+                    <p class="text-muted">Jet Propulsion Laboratory - NASA/June 2023 - September 2023</p>
+                    <p>My summer long internship concentrated on various different tasks within the Dynamics and
+                        Environments
+                        Group at JPL. My main project was focused on evaluating chainmail solids (CMS) as a novel
+                        material for
+                        damping and shock mitigation in aerospace applications. We aimed to harness the unique
+                        properties of
+                        the CMS, such as low
+                        density and adaptable stiffness, for effective vibration management. Our experimental procedure
+                        included
+                        a meticulous design of a Data Acquisition System and strategic placement of accelerometers to
+                        capture
+                        vibrational responses. The chainmail was subjected to random vibration profiles, and the results
+                        were
+                        analyzed using Power Spectral Density (PSD) comparisons and other modal analysis tools.
+                        Significant findings included a staggering -20dB reduction in transmissibility at critical lower
+                        frequencies and up to a -30dB reduction at higher, shock-level ranges,
+                        indicating the chainmail's effective damping capabilities. Finite Element Method (FEM)
+                        simulations
+                        complemented our experimental observations, affirming the potential of CMS in aerospace
+                        applications.
+                        The project's future focus will delve deeper into the chainmail's thermal properties and further
+                        tuning
+                        for specific aerospace applications, which we explored breifly through its implementation with
+                        cryocoolers. <a href="media_projects/Final Report (002)_RD2.pdf" target="_blank">View Final
+                            Report</a>
+                    </p>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <img src="media_projects/TOPBLOCK.jpeg" class="img-fluid" alt="Related Image">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <video class="img-fluid" controls>
-                        <source src="media_projects/CMS.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="col-lg-12">
+                    <!-- Existing project media row -->
+                    <div class="row project-media">
+                        <!-- Images -->
+                        <div class="col-md-4 mb-3">
+                            <img src="media_projects/TOPBLOCK.jpeg" class="img-fluid" alt="Block">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <img src="media_projects/ChiaraDaraio-ModernChainMail.2e16d0ba.fill-1600x810-c100.jpg"
+                                class="img-fluid" alt="CMS">
+                        </div>
+                        <!-- Embedded Video -->
+                        <div class="col-md-4 mb-3">
+                            <video class="img-fluid" controls>
+                                <source src="media_projects/CMS.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Experience Section 2 -->
-    <div class="experience-section mb-5">
-        <h2>Position Title 2</h2>
-        <!-- Similar content as above -->
-    </div>
-
-    <!-- Experience Section 3 -->
-    <div class="experience-section mb-5">
-        <h2>Position Title 3</h2>
-        <!-- Similar content as above -->
-    </div>
-    </div>
-
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+        <!-- Project Item -->
+        <div class="project-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Undergraduate Mechanical Engineering Researcher (Fluid Dynamics)</h2>
+                    <p class="text-muted">Thermoscience Laboratory - UCLA/October 2022 - Present</p>
+                    <p>As the lead researcher at UCLA's Thermosciences Lab, my focus is on the detailed study of liquid
+                        desiccants and their application in fluid dynamics. My contributions include conducting
+                        extensive experiments to explore fluid and string properties, combining hands-on experimental
+                        data with simulation insights, as well as performing data analysis through MatLab. I've played a
+                        key role in engineering and fabricating custom
+                        parts and procedures, significantly enhancing the precision of our fluid dynamics research.
+                        Additionally, I've
+                        worked on developing and refining MATLAB-based image processing algorithms, using the
+                        Image Processing Toolbox to automate the analysis of our liquid droplets under investigation and
+                        string curvature
+                        under varying tensions. These efforts not only streamline our data analysis process but also
+                        strengthen the lab's research capacity, paving the way for upcoming publications.
+                    </p>
+                </div>
+                <div class="col-lg-12">
+                    <!-- Existing project media row -->
+                    <div class="row project-media">
+                        <!-- Images -->
+                        <div class="col-md-4 mb-3">
+                            <img src="media_projects/Bead.jpeg" class="img-fluid" alt="Bead">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <img src="media_projects/Curvature.jpeg" class="img-fluid" alt="String">
+                        </div>
+                        <!-- Embedded Video -->
+                        <div class="col-md-4 mb-3">
+                            <video class="img-fluid" controls>
+                                <source src="media_projects/string.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>
