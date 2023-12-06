@@ -137,18 +137,18 @@ footer p {
     /* Adds more space at the top of the section */
     padding-bottom: 50px;
     /* Adds more space at the bottom of the section */
-    background-color: #ffffff;
+    background-color: #000000;
     /* Optional: Set a different background color if needed */
 }
 
-.contact-col,
+s .contact-col,
 .video-col {
     padding: 20px;
     margin-bottom: 30px;
 }
 
 .contact-info h3 {
-    color: #212121;
+    color: #f0f0f0;
     /* Dark color for better contrast */
     margin-top: 20px;
     font-weight: 600;
@@ -157,7 +157,7 @@ footer p {
 
 .contact-info p,
 .contact-info a {
-    color: #333;
+    color: #f0f0f0;
     /* Dark grey color for readability */
     margin-bottom: 15px;
     line-height: 1.6;
