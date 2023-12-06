@@ -121,11 +121,15 @@ footer p {
     color: #f0f0f0 !important;
 }
 
-.video-focus-upper {
+.project-media img,
+.project-media video {
+    height: auto;
+    /* Adjust as needed */
+    width: 100%;
     object-fit: cover;
-    object-position: top;
-    /* Focuses on the top part of the video */
 }
+
+
 
 /* Contact Section Styling */
 #contact {
