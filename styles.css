@@ -217,6 +217,7 @@ s .contact-col,
 }
 
 #maya .img-fluid {
+    max-height: 500px;
     width: auto;
     object-fit: cover;
 }
