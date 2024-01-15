@@ -217,14 +217,13 @@ s .contact-col,
 }
 
 #maya .img-fluid {
-    max-height: 500px;
-    width: auto;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
     #maya .img-fluid {
-        max-width: 100%;
-        max-height: none;
+        max-width: 75%;
+        margin: 0 auto;
     }
 }
