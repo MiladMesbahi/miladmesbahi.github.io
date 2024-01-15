@@ -134,11 +134,8 @@ footer p {
 /* Contact Section Styling */
 #contact {
     padding-top: 50px;
-    /* Adds more space at the top of the section */
     padding-bottom: 50px;
-    /* Adds more space at the bottom of the section */
     background-color: #000000;
-    /* Optional: Set a different background color if needed */
 }
 
 s .contact-col,
@@ -149,32 +146,24 @@ s .contact-col,
 
 .contact-info h3 {
     color: #f0f0f0;
-    /* Dark color for better contrast */
     margin-top: 20px;
     font-weight: 600;
-    /* Slightly bolder font for headings */
 }
 
 .contact-info p,
 .contact-info a {
     color: #f0f0f0;
-    /* Dark grey color for readability */
     margin-bottom: 15px;
     line-height: 1.6;
-    /* Improved line spacing for better readability */
     font-size: 1.0em;
-    /* Adjust font size for clarity */
 }
 
 .embed-responsive {
     margin-top: 20px;
     border-radius: 8px;
-    /* Rounded corners for the video frame */
     overflow: hidden;
-    /* Ensures the corners remain rounded */
 }
 
-/* Ensuring the responsiveness of the embed video */
 .embed-responsive iframe {
     width: 100%;
     height: auto;
@@ -202,56 +191,40 @@ s .contact-col,
 .project-media img,
 .project-media video {
     height: 200px;
-    /* Adjust height as needed */
     width: 100%;
-    /* Ensure full width within column */
     object-fit: cover;
-    /* Crop to maintain aspect ratio */
 }
 
 .project-container {
     border-bottom: 1px solid #ccc;
-    /* Adjust color and thickness as needed */
     padding-bottom: 15px;
-    /* Space above the border */
     margin-bottom: 15px;
-    /* Space below the border */
 }
 
 #maya {
     color: #f0f0f0;
-    /* Change color according to your theme */
     padding-bottom: 2em;
 }
 
 #maya h1,
 #maya h2 {
     color: #ff8f00;
-    /* Highlight color for titles */
 }
 
 #maya p {
     font-size: 1.2em;
-    /* Adjust the font size as needed */
     margin-bottom: 1em;
 }
 
-/* Responsive image styling */
 #maya .img-fluid {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    max-height: 200px;
+    width: auto;
+    object-fit: cover;
 }
 
-/* Additional responsive styling for smaller screens */
 @media (max-width: 768px) {
-    #maya h1 {
-        font-size: 2em;
-        /* Smaller font size for h1 on small devices */
-    }
-
-    #maya h2 {
-        font-size: 1.5em;
-        /* Smaller font size for h2 on small devices */
+    #maya .img-fluid {
+        max-width: 100%;
+        max-height: none;
     }
 }
