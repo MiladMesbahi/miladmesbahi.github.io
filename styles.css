@@ -1,5 +1,5 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -8,6 +8,7 @@ body {
     padding: 0;
     background: #f4f4f4;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -27,6 +29,7 @@ header h1 {
     font-weight: 700;
     letter-spacing: 2px;
     color: #333;
+    font-family: 'Playfair Display', serif;
 }
 
 nav ul {
@@ -51,10 +54,59 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: auto;
+.hero {
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h2 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.cta {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background: #333;
+    color: #fff;
 }
 
 .about {
@@ -65,6 +117,7 @@ main {
     padding: 40px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
+    animation: fadeInUp 1s ease-in-out;
 }
 
 .about-content {
@@ -87,12 +140,18 @@ main {
 .about-image {
     flex: 1;
     text-align: center;
+    padding: 20px;
 }
 
 .about-image img {
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
 }
 
 footer {
@@ -107,4 +166,28 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.9em;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2.5em;
+    }
+
+    .about {
+        flex-direction: column;
+    }
 }
