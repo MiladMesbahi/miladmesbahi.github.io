@@ -3,51 +3,924 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
-        rel="stylesheet">
+    <title>My Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>My Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Papers</a></li>
-                <li><a href="#">Literature Review</a></li>
-                <li><a href="#">MAYA</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <!--
+    - #MAIN
+  -->
+
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Welcome to My World of Engineering and Art</h2>
-                <p>Exploring the intersection of innovation and creativity.</p>
-                <a href="#about" class="cta">Learn More</a>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Your Name" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Your Name">Your Name</h1>
+
+                    <p class="title">Engineer & Entrepreneur</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
             </div>
-        </section>
-        <section id="about" class="about">
-            <div class="about-content">
-                <h2>About Me</h2>
-                <p>I am an engineer with a passion for innovative solutions and artistic expression. I have experience
-                    in mechanical engineering, thermodynamics, and control systems. Welcome to my personal website where
-                    you can explore my projects, papers, and learn more about my startup, MAYA.</p>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+1234567890" class="contact-link">+1 (123) 456-7890</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1990-01-01">January 1, 1990</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Your City, Your Country</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://facebook.com/yourprofile" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://twitter.com/yourprofile" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://instagram.com/yourprofile" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
             </div>
-            <div class="about-image">
-                <img src="images/your-image.jpg" alt="Your Image">
-            </div>
-        </section>
+
+        </aside>
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Projects</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About Me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I am an Engineer and Entrepreneur with a passion for innovative solutions and artistic
+                        expression. I have experience in mechanical engineering, thermodynamics, and control systems.
+                        Welcome to my personal website where you can explore my projects, papers, and learn more about
+                        my startup, MAYA.
+                    </p>
+
+                    <p>
+                        My aim is to bridge the gap between engineering and art, creating solutions that are not only
+                        functional but also aesthetically pleasing. I believe in the power of design to solve complex
+                        problems and improve lives.
+                    </p>
+                </section>
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What I'm Doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Engineering Design</h4>
+
+                                <p class="service-item-text">
+                                    Creating innovative designs that push the boundaries of technology and art.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Product Development</h4>
+
+                                <p class="service-item-text">
+                                    Leading product development projects from concept to completion.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile Apps</h4>
+
+                                <p class="service-item-text">
+                                    Developing high-quality applications for iOS and Android.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+
+                                <p class="service-item-text">
+                                    Capturing high-quality photos that tell a story.
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <!--
+          - testimonials
+        -->
+
+                <section class="testimonials">
+
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="Client Name" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Client Name</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Your Name was hired to create a corporate identity. We were very pleased with
+                                        the work done. They have a lot of experience and are very concerned about the
+                                        needs of the client. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-2.png" alt="Client Name" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Here is the continuation
+                                    and completion of your personalized `index.html` file for a more sophisticated,
+                                    styled, and artsy personal website:
+
+                                    ```html
+                                    Client Name</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Your Name was hired to create a corporate identity. We were very pleased with
+                                        the work done. They have a lot of experience and are very concerned about the
+                                        needs of the client. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-2.png" alt="Client Name" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Client Name</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Your Name provided exceptional service and went above and beyond to meet our
+                                        expectations. Their technical skills are top-notch and they bring a unique
+                                        perspective to each project.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-3.png" alt="Client Name" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Client Name</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Working with Your Name has been a pleasure. Their dedication to excellence and
+                                        attention to detail are evident in every aspect of their work.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="Client Name" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+
+                            <h4 class="h3 modal-title" data-modal-title>Client Name</h4>
+
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div data-modal-text>
+                                <p>
+                                    Your Name was hired to create a corporate identity. We were very pleased with the
+                                    work done. They have a lot of experience and are very concerned about the needs of
+                                    the client. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <!--
+          - clients
+        -->
+
+                <section class="clients">
+
+                    <h3 class="h3 clients-title">Clients</h3>
+
+                    <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-3-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-4-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-5-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">University Name</h4>
+
+                            <span>2010 — 2014</span>
+
+                            <p class="timeline-text">
+                                Bachelor of Science in Mechanical Engineering.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Graduate School Name</h4>
+
+                            <span>2014 — 2016</span>
+
+                            <p class="timeline-text">
+                                Master of Science in Engineering Management.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Founder & CEO</h4>
+
+                            <span>2019 — Present</span>
+
+                            <p class="timeline-text">
+                                Leading the innovative startup MAYA, focusing on optimizing credit card usage to
+                                maximize cashback and benefits.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Senior Engineer</h4>
+
+                            <span>2016 — 2019</span>
+
+                            <p class="timeline-text">
+                                Developed advanced mechanical systems for major engineering projects, enhancing
+                                efficiency and performance.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Mechanical Engineering</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 90%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Project Management</h5>
+                                <data value="85">85%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Product Development</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Programming</h5>
+                                <data value="75">75%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;"></div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="projects">
+
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Engineering</button>
+                        </li>
+
+                        <li class="filter-item">
+                            <button data-filter-btn>Software</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-select-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-itemHere is the continuation and completion of your personalized
+                                    `index.html` file for a more sophisticated, styled, and artsy personal website:
+                                    ```html All</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Engineering</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Software</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item active" data-filter-item data-category="engineering">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-1.jpg" alt="Project 1" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Project Title 1</h3>
+
+                                <p class="project-category">Engineering</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="software">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-2.jpg" alt="Project 2" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Project Title 2</h3>
+
+                                <p class="project-category">Software</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="engineering">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-3.jpg" alt="Project 3" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Project Title 3</h3>
+
+                                <p class="project-category">Engineering</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="software">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-4.jpg" alt="Project 4" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Project Title 4</h3>
+
+                                <p class="project-category">Software</p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+            <!--
+        - #BLOG
+      -->
+
+            <article class="blog" data-page="blog">
+
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+
+                    <ul class="blog-posts-list">
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./assets/images/blog-1.jpg" alt="Blog Post 1" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Engineering</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2023-01-23">Jan 23, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Blog Post Title 1</h3>
+
+                                    <p class="blog-text">
+                                        An overview of the latest trends and innovations in engineering.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./assets/images/blog-2.jpg" alt="Blog Post 2" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Software</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2023-02-15">Feb 15, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Blog Post Title 2</h3>
+
+                                    <p class="blog-text">
+                                        Insights into software development and best practices.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                                data-form-input>
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required
+                            data-form-input></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+
+                    </form>
+
+                </section>
+
+            </article>
+
+        </div>
+
     </main>
-    <footer>
-        <p>&copy; 2024 My Name</p>
-    </footer>
-    <script src="script.js"></script>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
