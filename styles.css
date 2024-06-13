@@ -1,14 +1,18 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
+    line-height: 1.6;
 }
 
 header {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
     padding: 20px 0;
     text-align: center;
     position: sticky;
@@ -20,14 +24,15 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    font-family: 'Georgia', serif;
+    font-weight: 700;
     letter-spacing: 2px;
+    color: #333;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0;
 }
 
 nav ul li {
@@ -36,9 +41,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-size: 1.1em;
+    font-weight: 400;
 }
 
 nav ul li a:hover {
@@ -69,13 +75,13 @@ main {
 .about h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    font-family: 'Georgia', serif;
-    color: #555;
+    font-weight: 700;
+    color: #333;
 }
 
 .about p {
-    font-size: 1.1em;
-    line-height: 1.6;
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 .about-image {
@@ -90,13 +96,12 @@ main {
 }
 
 footer {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    color: #333;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    padding: 20px 0;
     width: 100%;
-    bottom: 0;
 }
 
 footer p {
