@@ -110,7 +110,7 @@ for (let i = 0; i < formInputs.length; i++) {
             formBtn.setAttribute("disabled", "");
         }
     });
-}
+};
 
 // Page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
