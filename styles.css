@@ -1036,6 +1036,45 @@ main {
     font-weight: var(--fw-300);
 }
 
+.project-container {
+    margin-bottom: 50px;
+    padding: 20px;
+    background: var(--eerie-black-2);
+    border: 1px solid var(--jet);
+    border-radius: 14px;
+    box-shadow: var(--shadow-2);
+}
+
+.project-container h2 {
+    color: var(--white-2);
+    font-size: var(--fs-2);
+    margin-bottom: 10px;
+}
+
+.project-container p.text-muted {
+    color: var(--light-gray-70);
+    font-size: var(--fs-6);
+    margin-bottom: 15px;
+}
+
+.project-container p {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    line-height: 1.6;
+}
+
+.project-media img,
+.project-media video {
+    border-radius: 8px;
+    box-shadow: var(--shadow-1);
+}
+
+.project-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 /*-----------------------------------*\
     #BLOG
   \*-----------------------------------*/
