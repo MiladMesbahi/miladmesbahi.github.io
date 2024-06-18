@@ -936,6 +936,12 @@ main {
     margin-bottom: 2rem;
 }
 
+.project-container h2,
+.project-container p {
+    color: var(--white-1);
+    /* Change to white */
+}
+
 .project-media-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -972,6 +978,13 @@ main {
     color: #fff;
     padding: 5px 10px;
     border-radius: 3px;
+}
+
+/* CSS for Resume Section: Skills and Coursework */
+.skills-list .skills-item,
+.timeline-list .timeline-item {
+    color: var(--white-1);
+    /* Change to white */
 }
 
 /* Modal Styles */
@@ -1019,6 +1032,7 @@ main {
     font-size: 1.5rem;
     color: #000;
 }
+
 
 /*-----------------------------------*\
     #BLOG
