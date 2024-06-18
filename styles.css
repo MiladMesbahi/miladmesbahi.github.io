@@ -1579,6 +1579,15 @@ textarea.form-input::-webkit-resizer {
         left: -43px;
     }
 
+    .timeline-item-title,
+    .timeline-item span,
+    .timeline-text {
+        font-style: italic;
+        margin-bottom: 10px;
+        /* Adds spacing below each title */
+    }
+
+
     .skills-item:not(:last-child) {
         margin-bottom: 25px;
     }
