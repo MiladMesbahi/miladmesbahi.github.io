@@ -942,6 +942,11 @@ main {
     /* Change to white */
 }
 
+.project-container span {
+    color: hsl(45, 54%, 58%);
+    /* Vegas Gold color */
+}
+
 .project-media-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
