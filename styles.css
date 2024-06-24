@@ -1196,10 +1196,10 @@ main {
 
 
 /* CSS for Research Section */
+/* CSS for Research Section */
 .research-container {
     margin-bottom: 2rem;
 }
-
 
 .research-container h2,
 .research-container p {
@@ -1207,6 +1207,10 @@ main {
     /* Change to white */
 }
 
+.research-container span {
+    color: hsl(45, 54%, 58%);
+    /* Vegas Gold color */
+}
 
 .research-media-grid {
     display: grid;
@@ -1214,12 +1218,10 @@ main {
     gap: 15px;
 }
 
-
 .research-media-item {
     position: relative;
     overflow: hidden;
 }
-
 
 .research-media-item img,
 .research-media-item video {
@@ -1232,12 +1234,10 @@ main {
     cursor: pointer;
 }
 
-
 .research-media-item:hover img,
 .research-media-item:hover video {
     transform: scale(1.05);
 }
-
 
 .research-media-item:hover::after {
     content: "Click to expand";
@@ -1249,7 +1249,6 @@ main {
     padding: 5px 10px;
     border-radius: 3px;
 }
-
 
 /* Modal Styles */
 .modal {
@@ -1268,12 +1267,10 @@ main {
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-
 .modal.active {
     visibility: visible;
     opacity: 1;
 }
-
 
 .modal-content {
     position: relative;
@@ -1283,14 +1280,12 @@ main {
     text-align: center;
 }
 
-
 .modal-content img,
 .modal-content video {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
 
 .close-btn {
     position: absolute;
