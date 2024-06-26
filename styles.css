@@ -627,19 +627,16 @@ main {
 
 
 
+/*
 /* Testimonials Section */
 .testimonials {
     margin-bottom: 30px;
 }
 
 
-
-
 .testimonials-title {
     margin-bottom: 20px;
 }
-
-
 
 
 .testimonials-list {
@@ -657,14 +654,10 @@ main {
 }
 
 
-
-
 .testimonials-item {
     min-width: 100%;
     scroll-snap-align: center;
 }
-
-
 
 
 .testimonials-avatar-box {
@@ -678,13 +671,9 @@ main {
 }
 
 
-
-
 .testimonials-item-title {
     margin-bottom: 7px;
 }
-
-
 
 
 .testimonials-text {
@@ -698,8 +687,6 @@ main {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
-
 
 
 /* Testimonials Modal */
@@ -720,21 +707,15 @@ main {
 }
 
 
-
-
 .modal-container::-webkit-scrollbar {
     display: none;
 }
-
-
 
 
 .modal-container.active {
     pointer-events: all;
     visibility: visible;
 }
-
-
 
 
 .overlay {
@@ -752,15 +733,11 @@ main {
 }
 
 
-
-
 .overlay.active {
     opacity: 0.8;
     visibility: visible;
     pointer-events: all;
 }
-
-
 
 
 .testimonials-modal {
@@ -778,14 +755,10 @@ main {
 }
 
 
-
-
 .modal-container.active .testimonials-modal {
     transform: scale(1);
     opacity: 1;
 }
-
-
 
 
 .modal-close-btn {
@@ -805,21 +778,15 @@ main {
 }
 
 
-
-
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     opacity: 1;
 }
 
 
-
-
 .modal-close-btn ion-icon {
     --ionicon-stroke-width: 50px;
 }
-
-
 
 
 .modal-avatar-box {
@@ -831,20 +798,14 @@ main {
 }
 
 
-
-
 .modal-img-wrapper>img {
     display: none;
 }
 
 
-
-
 .modal-title {
     margin-bottom: 4px;
 }
-
-
 
 
 .modal-content time {
@@ -853,8 +814,6 @@ main {
     font-weight: var(--fw-300);
     margin-bottom: 10px;
 }
-
-
 
 
 .modal-content p {
