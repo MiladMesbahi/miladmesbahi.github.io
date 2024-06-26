@@ -15,7 +15,7 @@ sidebarBtn.addEventListener("click", function () {
 });
 
 // Testimonials variables
-const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
+const testimonialsItems = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
@@ -31,13 +31,14 @@ const testimonialsModalFunc = function () {
     overlay.classList.toggle("active");
 };
 
-// Add click event to all modal items
-testimonialsItem.forEach(item => {
+// Add click event to all modal items (testimonials, favorite movies, reading list)
+const modalItems = document.querySelectorAll("[data-modal-item]");
+modalItems.forEach(item => {
     item.addEventListener("click", function () {
-        modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
-        modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
-        modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-        modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+        modalImg.src = this.querySelector("[data-modal-avatar]").src;
+        modalImg.alt = this.querySelector("[data-modal-avatar]").alt;
+        modalTitle.innerHTML = this.querySelector("[data-modal-title]").innerHTML;
+        modalText.innerHTML = this.querySelector("[data-modal-text]").innerHTML;
         testimonialsModalFunc();
     });
 });
