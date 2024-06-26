@@ -14,19 +14,8 @@ sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
 });
 
-// Testimonials section
-const testimonialsList = document.querySelector('.testimonials-list');
-if (testimonialsList) {
-    const testimonialsItems = document.querySelectorAll('.testimonials-item');
-    testimonialsItems.forEach(item => {
-        item.addEventListener('click', function () {
-            // If you want to add any functionality on click, you can add here
-            console.log('Testimonial clicked');
-        });
-    });
-}
-
-// Modal variables for other sections
+// Testimonials variables
+const testimonialsItems = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
@@ -42,7 +31,7 @@ const testimonialsModalFunc = function () {
     overlay.classList.toggle("active");
 };
 
-// Add click event to all modal items (other sections)
+// Add click event to all modal items (testimonials, favorite movies, reading list)
 const modalItems = document.querySelectorAll("[data-modal-item]");
 modalItems.forEach(item => {
     item.addEventListener("click", function () {
