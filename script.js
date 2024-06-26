@@ -14,14 +14,6 @@ sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
 });
 
-// Testimonials variables (removing modal functionality)
-const testimonialsItems = document.querySelectorAll("[data-testimonials-item]");
-testimonialsItems.forEach(item => {
-    item.addEventListener("click", function () {
-        // No modal functionality for testimonials
-    });
-});
-
 // Modal variables for other sections
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
