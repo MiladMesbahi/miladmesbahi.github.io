@@ -14,39 +14,6 @@ sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
 });
 
-// Testimonials variables
-const testimonialsItems = document.querySelectorAll("[data-testimonials-item]");
-const modalContainer = document.querySelector("[data-modal-container]");
-const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
-const overlay = document.querySelector("[data-overlay]");
-
-// Modal variable
-const modalImg = document.querySelector("[data-modal-img]");
-const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
-
-// Modal toggle function
-const testimonialsModalFunc = function () {
-    modalContainer.classList.toggle("active");
-    overlay.classList.toggle("active");
-};
-
-// Add click event to all modal items (testimonials, favorite movies, reading list)
-const modalItems = document.querySelectorAll("[data-modal-item]");
-modalItems.forEach(item => {
-    item.addEventListener("click", function () {
-        modalImg.src = this.querySelector("[data-modal-avatar]").src;
-        modalImg.alt = this.querySelector("[data-modal-avatar]").alt;
-        modalTitle.innerHTML = this.querySelector("[data-modal-title]").innerHTML;
-        modalText.innerHTML = this.querySelector("[data-modal-text]").innerHTML;
-        testimonialsModalFunc();
-    });
-});
-
-// Add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
-
 // Page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
