@@ -625,7 +625,6 @@ main {
     line-height: 1.6;
 }
 
-
 /* Favorite Movies Section */
 .testimonials {
     margin-bottom: 15px;
@@ -693,7 +692,6 @@ main {
 .clients-item img:hover {
     filter: grayscale(0);
 }
-
 
 /*-----------------------------------*\
     #RESUME
