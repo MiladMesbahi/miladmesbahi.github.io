@@ -604,9 +604,9 @@ main {
 
 
 .service-icon-box img {
-    width: 8em;
+    width: 400px;
     /* Adjust the value as needed */
-    height: 8em;
+    height: 400px;
     /* Adjust the value as needed */
     margin: auto;
 }
