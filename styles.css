@@ -1248,6 +1248,13 @@ main {
     border-radius: 3px;
 }
 
+
+.research p,
+.portfolio p {
+    margin-bottom: 20px;
+    /* Adjust the value to your desired spacing */
+}
+
 /* Modal Styles */
 .modal {
     position: fixed;
