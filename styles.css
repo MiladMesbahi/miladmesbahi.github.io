@@ -1291,13 +1291,6 @@ main {
     border-radius: 3px;
 }
 
-
-.research p,
-.portfolio p {
-    margin-bottom: 20px;
-    /* Adjust the value to your desired spacing */
-}
-
 /* Modal Styles */
 .modal {
     position: fixed;
@@ -2597,4 +2590,11 @@ textarea.form-input::-webkit-resizer {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.research p,
+.portfolio p {
+    margin-bottom: 1em;
+    ;
+    /* Adjust the value to your desired spacing */
 }
