@@ -14,8 +14,15 @@ sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
 });
 
-// Testimonials variables
+// Testimonials variables (removing modal functionality)
 const testimonialsItems = document.querySelectorAll("[data-testimonials-item]");
+testimonialsItems.forEach(item => {
+    item.addEventListener("click", function () {
+        // No modal functionality for testimonials
+    });
+});
+
+// Modal variables for other sections
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
@@ -31,7 +38,7 @@ const testimonialsModalFunc = function () {
     overlay.classList.toggle("active");
 };
 
-// Add click event to all modal items (testimonials, favorite movies, reading list)
+// Add click event to all modal items (other sections)
 const modalItems = document.querySelectorAll("[data-modal-item]");
 modalItems.forEach(item => {
     item.addEventListener("click", function () {
