@@ -2561,3 +2561,64 @@ textarea.form-input::-webkit-resizer {
     ;
     /* Adjust the value to your desired spacing */
 }
+
+/* Styles for the MAYA section */
+.maya {
+    display: none;
+    padding: 15px;
+    background: var(--eerie-black-2);
+    border: 1px solid var(--jet);
+    border-radius: 20px;
+    box-shadow: var(--shadow-1);
+}
+
+.maya.active {
+    display: block;
+}
+
+.maya .maya-title {
+    color: var(--white-2);
+    font-size: var(--fs-1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.maya .maya-subtitle {
+    color: var(--white-1);
+    font-size: var(--fs-2);
+    margin-bottom: 15px;
+}
+
+.maya .maya-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+}
+
+.maya .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.maya .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+
+.maya img.img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .maya .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
