@@ -24,6 +24,7 @@ const overlay = document.querySelector("[data-overlay]");
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalText = document.querySelector("[data-modal-text]");
+const pdfViewer = document.getElementById("pdf-viewer");
 
 // Modal toggle function
 const testimonialsModalFunc = function () {
@@ -38,6 +39,8 @@ testimonialsItem.forEach(item => {
         modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
         modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
         modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+        const pdfSrc = this.querySelector(".open-modal-btn").getAttribute("data-pdf");
+        pdfViewer.setAttribute("src", pdfSrc);
         testimonialsModalFunc();
     });
 });
