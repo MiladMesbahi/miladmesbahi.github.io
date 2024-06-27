@@ -2608,7 +2608,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 /* Styling for the About Section */
-.maya-section h2 {
+.maya-section h3 {
     margin-top: 30px;
     color: var(--orange-yellow-crayola);
 }
