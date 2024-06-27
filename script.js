@@ -14,6 +14,41 @@ sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
 });
 
+// Favorite Movies variables
+const favoriteMoviesItem = document.querySelectorAll("[data-favorite-movies-item]");
+const modalContainer = document.querySelector("[data-modal-container]");
+const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
+const overlay = document.querySelector("[data-overlay]");
+
+// Modal variable
+const modalImg = document.querySelector("[data-modal-img]");
+const modalTitle = document.querySelector("[data-modal-title]");
+const modalText = document.querySelector("[data-modal-text]");
+const pdfViewer = document.getElementById("pdf-viewer");
+
+// Modal toggle function
+const favoriteMoviesModalFunc = function () {
+    modalContainer.classList.toggle("active");
+    overlay.classList.toggle("active");
+};
+
+// Add click event to all modal items
+favoriteMoviesItem.forEach(item => {
+    item.addEventListener("click", function () {
+        modalImg.src = this.querySelector("[data-favorite-movies-avatar]").src;
+        modalImg.alt = this.querySelector("[data-favorite-movies-avatar]").alt;
+        modalTitle.innerHTML = this.querySelector("[data-favorite-movies-title]").innerHTML;
+        modalText.innerHTML = this.querySelector("[data-favorite-movies-text]").innerHTML;
+        const pdfSrc = this.querySelector(".open-modal-btn").getAttribute("data-pdf");
+        pdfViewer.setAttribute("src", pdfSrc);
+        favoriteMoviesModalFunc();
+    });
+});
+
+// Add click event to modal close button
+modalCloseBtn.addEventListener("click", favoriteMoviesModalFunc);
+overlay.addEventListener("click", favoriteMoviesModalFunc);
+
 // Page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
