@@ -2565,8 +2565,7 @@ textarea.form-input::-webkit-resizer {
 /* Adjustments for the MAYA Section */
 
 .maya-section .container {
-    margin-top: 50px;
-    padding-top: 20px;
+    margin-bottom: 2rem;
 }
 
 .maya-section .article-title {
@@ -2574,12 +2573,6 @@ textarea.form-input::-webkit-resizer {
     text-transform: capitalize;
     font-size: var(--fs-1);
     /* Adjust spacing as needed */
-}
-
-.maya-section h1,
-.maya-section h2,
-.maya-section p {
-    color: var(--white-2);
 }
 
 .maya-section .row {
