@@ -2562,63 +2562,58 @@ textarea.form-input::-webkit-resizer {
     /* Adjust the value to your desired spacing */
 }
 
-/* Styles for the MAYA section */
-.maya {
-    display: none;
-    padding: 15px;
-    background: var(--eerie-black-2);
-    border: 1px solid var(--jet);
-    border-radius: 20px;
+/* Adjustments for the MAYA Section */
+
+.maya-section .container {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.maya-section h1,
+.maya-section h2,
+.maya-section p {
+    color: var(--white-2);
+}
+
+.maya-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.maya-section .col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.maya-section .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.maya-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
     box-shadow: var(--shadow-1);
 }
 
-.maya.active {
-    display: block;
+/* Styling for the About Section */
+.maya-section h2 {
+    margin-top: 30px;
+    color: var(--orange-yellow-crayola);
 }
 
-.maya .maya-title {
+.maya-section p {
     color: var(--white-2);
-    font-size: var(--fs-1);
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.maya .maya-subtitle {
-    color: var(--white-1);
-    font-size: var(--fs-2);
-    margin-bottom: 15px;
-}
-
-.maya .maya-text {
-    color: var(--light-gray);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-300);
     line-height: 1.6;
 }
 
-.maya .row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.maya .col-md-4 {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-}
-
-.maya img.img-fluid {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: var(--shadow-2);
-}
-
-/* Responsive adjustments */
+/* Ensuring responsiveness */
 @media (max-width: 768px) {
-    .maya .col-md-4 {
-        flex: 0 0 100%;
-        max-width: 100%;
+    .maya-section .col-md-4 {
+        flex: 0 0 45%;
+        max-width: 45%;
     }
 }
