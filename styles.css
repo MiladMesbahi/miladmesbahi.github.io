@@ -2569,7 +2569,7 @@ textarea.form-input::-webkit-resizer {
     padding-top: 20px;
 }
 
-.maya .article-title {
+.maya-section .article-title {
     color: var(--white-2);
     text-transform: capitalize;
     font-size: var(--fs-1);
@@ -2608,9 +2608,9 @@ textarea.form-input::-webkit-resizer {
 }
 
 /* Styling for the About Section */
-.maya-section h3 {
+.maya-section h2 {
     margin-top: 30px;
-    color: var(--orange-yellow-crayola);
+    color: var(--white-2);
 }
 
 .maya-section p {
