@@ -14,8 +14,8 @@ sidebarBtn.addEventListener("click", function () {
     elementToggleFunc(sidebar);
 });
 
-// Favorite Movies variables
-const favoriteMoviesItem = document.querySelectorAll("[data-favorite-movies-item]");
+// Testimonials variables
+const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
@@ -27,27 +27,27 @@ const modalText = document.querySelector("[data-modal-text]");
 const pdfViewer = document.getElementById("pdf-viewer");
 
 // Modal toggle function
-const favoriteMoviesModalFunc = function () {
+const testimonialsModalFunc = function () {
     modalContainer.classList.toggle("active");
     overlay.classList.toggle("active");
 };
 
 // Add click event to all modal items
-favoriteMoviesItem.forEach(item => {
+testimonialsItem.forEach(item => {
     item.addEventListener("click", function () {
-        modalImg.src = this.querySelector("[data-favorite-movies-avatar]").src;
-        modalImg.alt = this.querySelector("[data-favorite-movies-avatar]").alt;
-        modalTitle.innerHTML = this.querySelector("[data-favorite-movies-title]").innerHTML;
-        modalText.innerHTML = this.querySelector("[data-favorite-movies-text]").innerHTML;
+        modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
+        modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
+        modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
+        modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
         const pdfSrc = this.querySelector(".open-modal-btn").getAttribute("data-pdf");
         pdfViewer.setAttribute("src", pdfSrc);
-        favoriteMoviesModalFunc();
+        testimonialsModalFunc();
     });
 });
 
 // Add click event to modal close button
-modalCloseBtn.addEventListener("click", favoriteMoviesModalFunc);
-overlay.addEventListener("click", favoriteMoviesModalFunc);
+modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+overlay.addEventListener("click", testimonialsModalFunc);
 
 // Page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");

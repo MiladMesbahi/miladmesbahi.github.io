@@ -629,16 +629,21 @@ main {
     line-height: 1.6;
 }
 
-/* Favorite Movies Section */
-.favorite-movies {
+
+
+/*
+/* Testimonials Section */
+.testimonials {
     margin-bottom: 30px;
 }
 
-.favorite-movies-title {
+
+.testimonials-title {
     margin-bottom: 20px;
 }
 
-.favorite-movies-list {
+
+.testimonials-list {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -652,12 +657,14 @@ main {
     scroll-snap-type: inline mandatory;
 }
 
-.favorite-movies-item {
+
+.testimonials-item {
     min-width: 100%;
     scroll-snap-align: center;
 }
 
-.favorite-movies-avatar-box {
+
+.testimonials-avatar-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -667,11 +674,13 @@ main {
     box-shadow: var(--shadow-1);
 }
 
-.favorite-movies-item-title {
+
+.testimonials-item-title {
     margin-bottom: 7px;
 }
 
-.favorite-movies-text {
+
+.testimonials-text {
     color: var(--light-gray);
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
@@ -683,7 +692,8 @@ main {
     overflow: hidden;
 }
 
-/* Favorite Movies Modal */
+
+/* Testimonials Modal */
 .modal-container {
     position: fixed;
     top: 0;
@@ -700,14 +710,17 @@ main {
     visibility: hidden;
 }
 
+
 .modal-container::-webkit-scrollbar {
     display: none;
 }
+
 
 .modal-container.active {
     pointer-events: all;
     visibility: visible;
 }
+
 
 .overlay {
     position: fixed;
@@ -723,13 +736,15 @@ main {
     transition: var(--transition-1);
 }
 
+
 .overlay.active {
     opacity: 0.8;
     visibility: visible;
     pointer-events: all;
 }
 
-.favorite-movies-modal {
+
+.testimonials-modal {
     background: var(--eerie-black-2);
     position: relative;
     padding: 15px;
@@ -743,10 +758,12 @@ main {
     z-index: 2;
 }
 
-.modal-container.active .favorite-movies-modal {
+
+.modal-container.active .testimonials-modal {
     transform: scale(1);
     opacity: 1;
 }
+
 
 .modal-close-btn {
     position: absolute;
@@ -764,14 +781,17 @@ main {
     opacity: 0.7;
 }
 
+
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     opacity: 1;
 }
 
+
 .modal-close-btn ion-icon {
     --ionicon-stroke-width: 50px;
 }
+
 
 .modal-avatar-box {
     background: var(--bg-gradient-onyx);
@@ -781,13 +801,16 @@ main {
     box-shadow: var(--shadow-2);
 }
 
+
 .modal-img-wrapper>img {
     display: none;
 }
 
+
 .modal-title {
     margin-bottom: 4px;
 }
+
 
 .modal-content time {
     font-size: var(--fs-6);
@@ -796,11 +819,51 @@ main {
     margin-bottom: 10px;
 }
 
+
 .modal-content p {
     color: var(--light-gray);
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
     line-height: 1.6;
+}
+
+
+/* Clients Section */
+.clients {
+    margin-bottom: 15px;
+}
+
+
+.clients-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 0 -15px;
+    padding: 25px;
+    padding-bottom: 25px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 25px;
+}
+
+
+.clients-item {
+    min-width: calc(33.33% - 10px);
+}
+
+
+.clients-item img {
+    width: 100%;
+    filter: grayscale(1);
+    transition: var(--transition-1);
+}
+
+
+.clients-item img:hover {
+    filter: grayscale(0);
 }
 
 
