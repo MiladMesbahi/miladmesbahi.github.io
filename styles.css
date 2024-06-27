@@ -2573,7 +2573,6 @@ textarea.form-input::-webkit-resizer {
     color: var(--white-2);
     text-transform: capitalize;
     font-size: var(--fs-1);
-    margin-bottom: 20px;
     /* Adjust spacing as needed */
 }
 
@@ -2610,7 +2609,7 @@ textarea.form-input::-webkit-resizer {
 /* Styling for the About Section */
 .maya-section h2 {
     margin-top: 30px;
-    color: var(--white-2);
+    color: hsl(45, 54%, 58%);
 }
 
 .maya-section p {
