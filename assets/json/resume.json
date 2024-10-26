@@ -56,6 +56,18 @@
       ]
     },
     {
+      "name": "UPenn GRASP - George Pappas Lab",
+      "position": "MARL Reseacher",
+      "url": "https://www.georgejpappas.org/group/",
+      "startDate": "2024-10-01",
+      "endDate": "Present",
+      "summary": "Developing a Multi-Agent Reinforcement Learning (MARL) framework to optimize autonomous systems for environmental mapping.",
+      "highlights": [
+        "Deploying franeworks  using Gaussian Processes, Neural Operators, and Distributed Gradient Descent.",
+        "Contributing to real-time data analysis and centralized training."
+      ]
+    },
+    {
       "name": "UCLA Thermoscience Laboratory",
       "position": "Lead Undergraduate Researcher",
       "url": "https://www.ucla.edu",
@@ -95,6 +107,10 @@
     {
       "name": "Engineering Programming",
       "keywords": ["C++", "Python", "MatLab", "ROS", "Gazebo", "Digital Signal Processing"]
+    },
+    {
+      "name": "Machine Learning & Computer Vision",
+      "keywords": ["PyTorch", "Optimmization Tecnhiques", "OpenCV", "Persepctive Projection", "Augemented Reality", "Multi-Agent Reinforcement Learning"]
     },
     {
       "name": "Web Development",

@@ -4,14 +4,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - miladmesbahi/Robot-Arm-Manipulation
+  - miladmesbahi/Machine-Perception
   - miladmesbahi/PeachParty
   - miladmesbahi/Battle-for-Zion
   - miladmesbahi/PnetPhlix
   - miladmesbahi/Thermoscience-Laboratory-MatLab-Processing
   - miladmesbahi/miladmesbahi.github.io
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+
+
