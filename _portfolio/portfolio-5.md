@@ -2,6 +2,8 @@
 title: "1-Pound Combat Robot"
 excerpt: "Design and fabrication of a high-performance battle bot."
 collection: portfolio
+category: robotics
+
 ---
 
  <img src="/images/bot.png" alt="Rover 2" class="content-image" />

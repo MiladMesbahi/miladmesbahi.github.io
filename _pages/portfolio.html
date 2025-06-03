@@ -7,8 +7,20 @@ author_profile: true
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<h2>Research</h2>
+{% assign research_posts = site.portfolio | where: "category", "research" %}
+{% for post in research_posts %}
+{% include archive-single.html %}
 {% endfor %}
 
+<h2>Robotics</h2>
+{% assign robotics_posts = site.portfolio | where: "category", "robotics" %}
+{% for post in robotics_posts %}
+{% include archive-single.html %}
+{% endfor %}
+
+<h2>Engineering</h2>
+{% assign engineering_posts = site.portfolio | where: "category", "engineering" %}
+{% for post in engineering_posts %}
+{% include archive-single.html %}
+{% endfor %}

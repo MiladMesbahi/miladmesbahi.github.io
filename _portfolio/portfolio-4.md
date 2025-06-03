@@ -2,6 +2,7 @@
 title: "NASA JPL Internship Project"
 excerpt: "Dynamical Evaluation of Novel Damping Mechanism for Shock Mitigation in Aerospace Applications"
 collection: portfolio
+category: research
 ---
 
 ## Vibration Damping with Chainmail Structures  

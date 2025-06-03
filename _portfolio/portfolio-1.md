@@ -2,6 +2,7 @@
 title: "An Autonomous VIO Quadrotor"
 excerpt: "A fully autonomous quadrotor system integrating path planning, minimum-jerk trajectory generation, nonlinear control, and visual-inertial state estimation."
 collection: portfolio
+category: robotics
 ---
 
  <img src="/images/CrazyFlie20.jpg" alt="Rover 2" class="content-img"/>

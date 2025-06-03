@@ -2,6 +2,8 @@
 title: "Autonomous Pick-and-Place System"
 excerpt: "Robotic block stacking with AprilTag tracking and closed-loop control."
 collection: portfolio
+category: robotics
+
 ---
 Built a robotic pick-and-place system using the **Franka Emika Panda** arm, capable of handling both static and moving blocks.
 

@@ -39,4 +39,4 @@ And I hope to inspire others do the same.
 
 What Else
 ======
-This site also includes a reading journal I started in 2024 — short reflections on every book I’ve read since the beginning of the year. I update it regularly and always welcome new recommendations.
+This site also includes a reading journal I started in 2025 — short reflections on every book I’ve read since the beginning of the year. I update it regularly and always welcome new recommendations.
