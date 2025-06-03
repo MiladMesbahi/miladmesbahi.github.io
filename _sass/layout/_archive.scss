@@ -34,7 +34,7 @@
   color: var(--global-text-color-light);
   border-bottom: 1px solid var(--global-border-color);
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -43,7 +43,7 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -61,16 +61,49 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
+  }
+
+  img {
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+
+    @include breakpoint($medium) {
+      width: 50%;
+      max-width: 50%;
+    }
+
+    @include breakpoint($large) {
+      width: 40%;
+      max-width: 40%;
+    }
   }
 }
 
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
-    width: 100%;
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+
+    @include breakpoint($medium) {
+      width: 60%;
+      max-width: 60%;
+    }
+
+    @include breakpoint($large) {
+      width: 45%;
+      max-width: 45%;
+    }
   }
 }
 
@@ -130,14 +163,17 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    /* reset before mixin does its thing*/
+    margin-right: 0;
+    /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {

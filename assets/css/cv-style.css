@@ -2,7 +2,7 @@
 .cv-container {
   max-width: 1000px;
   margin: 0 auto;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Bodoni Moda', serif, 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
   line-height: 1.6;
 }
@@ -217,15 +217,15 @@
   .cv-container {
     max-width: 100%;
   }
-  
+
   .cv-header {
     border-bottom-color: #ccc;
   }
-  
+
   .cv-section h2 {
     border-bottom-color: #ccc;
   }
-  
+
   .cv-skill-keyword,
   .cv-project-keyword,
   .cv-interest-keyword {

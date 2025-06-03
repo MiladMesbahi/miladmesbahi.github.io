@@ -11,26 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Robotics, University of Pennsylvania, 2026 (Expected)
+* B.S. in Mechanical Engineering, University of California, Los Angeles, 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* May 2025 - Present : GNC Graduate Intern
+  * Blue Origin
   * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  
+  * Supervisor: Director Matt Rottmund
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* October 2024 - Present : Research Assistant
+  * University of Pennsylvania
+  * Focused on developing a multi-agent reinforcement learning framework for Autonomous Underwater Vehicle (AUV) salinity mapping in an oceanic environment. 
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Advisor: Dr. George Pappas
+
+* June 2023 - September 2023: Mechanical Engineering Undergraduate Intern
+  * Jet Propulsion Laboratory (NASA)
+  * Duties included: Dynamics Testing 
+  * Supervisor: Dr. Ali Kolani
+  
   
 Skills
 ======
