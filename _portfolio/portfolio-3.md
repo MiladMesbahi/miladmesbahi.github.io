@@ -11,7 +11,9 @@ foundation in robotics.
 <div class="glider-contain">
   <div class="glider">
     <img src="/images/rover2.jpg" alt="Rover 2" class="content-image" />
+    <img src="/images/rovercap.png" alt="Rover wiring" class="content-image" />
     <img src="/images/rover2course.png" alt="Rover 2 course" class="content-image" />
+    <img src="/images/rovercap3.png" alt="Rover wiring" class="content-image" />
     <img src="/images/wiring.png" alt="Rover wiring" class="content-image" />
   </div>
 
@@ -62,3 +64,17 @@ Overall, we finished **2nd** in the competition out of 8 other UCLA teams.
 
 
 
+
+<script>
+  window.addEventListener('load', function(){
+    new Glider(document.querySelector('.glider'), {
+      slidesToShow: 1,
+      dots: '.dots',
+      draggable: true,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+  });
+</script>

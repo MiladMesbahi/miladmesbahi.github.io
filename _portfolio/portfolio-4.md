@@ -1,35 +1,61 @@
 ---
-title: "1-Pound Combat Robot"
-excerpt: "Design and fabrication of a high-performance battle bot."
+title: "NASA JPL Internship Project"
+excerpt: "Dynamical Evaluation of Novel Damping Mechanism for Shock Mitigation in Aerospace Applications"
 collection: portfolio
 ---
 
- <img src="/images/bot.png" alt="Rover 2" class="content-image" />
+## Vibration Damping with Chainmail Structures  
 
-Built a 1-pound combat robot as a two-person team, designed to balance destructive force and structural durability. Placed **2nd** in a field of advanced competitors.
+During my internship at NASA JPL, I evaluated **chainmail solids**, a novel damping material developed by a CalTech research lab, as an advanced material for **shock mitigation and vibration damping** in aerospace applications. The work combined engineering testing, data analysis, and dynamics simulation and modeling to understand the chainmail’s behavior.
 
-### Highlights
+<div class="glider-contain">
+  <div class="glider">
+    <img src="/images/chain5.jpg" alt="Rover 2" class="content-image" />
+    <img src="/images/chain2.jpg" alt="Rover 2 course" class="content-image" />
+    <img src="/images/PSD2.png" alt="Rover wiring" class="content-image" />
+    <img src="/images/PSD.png" alt="Rover wiring" class="content-image" />
+    <img src="/images/FEM.png" alt="Rover wiring" class="content-image" />
+  </div>
 
-- **Structure**:
-  - Machined high-strength aluminum chassis
-  - Designed for ideal strength-to-weight ratio
-  - Reinforced using FEA and center of mass analysis
+  <button aria-label="Previous" class="glider-prev">«</button>
+  <button aria-label="Next" class="glider-next">»</button>
+  <div role="tablist" class="dots"></div>
+</div>
 
-- **Weapon**:
-  - “Egg beater” drum spinner
-  - Accounted for ~30% of total mass
-  - Tuned for high impact undercuts
+### Internship Highlights
 
-- **Electronics**:
-  - Bluetooth manual control
-  - Shielded internals for shock resistance
+- **Experimental Design**
+  - Built a custom vibrational testing setup using an electric shaker and 8 accelerometers  
+  - Conducted random vibration tests from **20Hz to 2000Hz**  
+  - Chainmail achieved up to **98% reduction in vibration transmissibility** at critical frequencies
 
-- **Performance**:
-  - Survived repeated impacts with minimal damage
-  - Improved iteratively using FEM and physical testing
+- **Signal Processing & Analysis**
+  - Developed MATLAB tools to compute **magnitude**, **phase**, **coherence**, **power spectral density**, and **mode shapes**  
+  - Visualized and interpreted modal behaviors across axes  
+  - Validated experimental results with **Finite Element Method (FEM) simulations**
 
-📽️ Watch a battle video here
-<video controls width="100%" style="max-width:75%; margin: 1em auto; display: block;">
-  <source src="/images/IMG_1409.mp4" type="video/mp4">
-</video>
+- **Material Evaluation**
+  - Compared chainmail to solid aluminum and other damping materials  
+  - Demonstrated strong performance in energy attenuation under dynamic excitation  
+  - Investigated chainmail’s **tunability** and **rotational/translational modal behavior**
 
+- **Applications**
+  - Findings suggest chainmail structures are highly promising for aerospace vibration control  
+  - Further opportunities exist in multi-axis damping and adaptive structural design
+
+📄 [Read Full Report (PDF)](/files/JPLFinalReport.pdf)
+
+
+<script>
+  window.addEventListener('load', function(){
+    new Glider(document.querySelector('.glider'), {
+      slidesToShow: 1,
+      dots: '.dots',
+      draggable: true,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+  });
+</script>
