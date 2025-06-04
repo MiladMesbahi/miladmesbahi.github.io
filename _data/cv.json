@@ -2,15 +2,14 @@
   "basics": {
     "name": "Milad Mesbahi",
     "email": "mesbahi@seas.upenn.edu",
-    "phone": "",
     "website": "https://miladmesbahi.github.io",
-    "summary": "Currently a Graduate Student at UPenn. Summer Intern at Blue Origin. Applying for PhD Position starting Fall 2026.",
+    "summary": "Graduate student in Robotics at the University of Pennsylvania. Currently working as a GNC intern on the Engines team at Blue Origin, with past experience at NASA JPL and research in thermodynamics and multi-agent reinforcement learning. Applying for PhD programs starting Fall 2026.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": ""
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
@@ -20,114 +19,158 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Blue Origin",
+      "position": "GNC Intern, Engines Team",
+      "startDate": "May 2025",
+      "endDate": "August 2025",
+      "summary": "Control Systems Analysis for one of their engine systems. Conducting analysis and simulation in Simulink and MATLAB.",
+      "highlights": [
+        "Work is on-going and proprietary."
+      ]
+    },
+    {
+      "company": "NASA Jet Propulsion Laboratory (JPL)",
+      "position": "Mechanical Engineering Intern",
+      "startDate": "June 2023",
+      "endDate": "September 2023",
+      "summary": "Worked on mechanical system design for aerospace applications, including valve optimization for thermal systems.",
+      "highlights": [
+        "Developed CAD and thermal models for flight hardware",
+        "Collaborated on system integration and test plans"
+      ]
+    },
+    {
+      "company": "UCLA Thermodynamics Laboratory",
+      "position": "Undergraduate Researcher",
+      "startDate": "January 2022",
+      "endDate": "June 2024",
+      "summary": "Conducted experimental and modeling work on thermal and fluid systems under Dr. Sungtaek Ju.",
+      "highlights": [
+        "Modeled microscale heat transfer phenomena",
+        "Co-authored internal technical reports"
+      ]
+    },
+    {
+      "company": "UPenn GRASP Lab (George Pappas)",
+      "position": "Graduate Researcher",
+      "startDate": "August 2024",
+      "summary": "Working on multi-agent reinforcement learning frameworks for exploration in dynamic environments. Focused on Gaussian Processes and control-aware reward shaping."
+    }
+  ],
   "education": [
     {
       "institution": "University of Pennsylvania",
-      "area": "M.S. Robotics",
-      "studyType": "",
+      "area": "M.S. in Robotics",
+      "studyType": "Graduate",
       "startDate": "August 2024",
       "endDate": "May 2026",
-      "gpa": null,
-      "courses": []
+      "courses": [
+        "Introduction to Robotics",
+        "Machine Learning",
+        "Machine Perception",
+        "Advanced Robotics",
+        "Bayesian Optimization",
+        "Modern Convex Optimization"
+      ]
     },
     {
       "institution": "University of California, Los Angeles",
-      "area": "B.S. Mechanical Engineering",
-      "studyType": "",
+      "area": "B.S. in Mechanical Engineering",
+      "studyType": "Undergraduate",
       "startDate": "September 2020",
       "endDate": "June 2024",
-      "gpa": null,
-      "courses": []
+      "courses": [
+        "Thermodynamics",
+        "Control Systems",
+        "Heat Transfer",
+        "Embedded Systems"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "Experience": [
+  "skills": [
     {
-      "name": "",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "MATLAB",
+        "C++",
+        "Web Dev (JavaScript, CSS, HTML)"
+      ]
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Robotics, Learning, Control",
+      "keywords": [
+        "Linear Models",
+        "PID Control",
+        "PyTorch",
+        "Reinforcement Learning",
+        "Bayesian Optimization"
+      ]
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Tools & Platforms",
+      "keywords": [
+        "Git",
+        "ROS",
+        "Gazebo",
+        "CAD (Solidworks/NX), FEA/FEM",
+        "CVXPY",
+        "Simulink"
+      ]
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Professionalism",
+      "keywords": [
+        "Adobe Premier Pro",
+        "Figma",
+        "MSSuite",
+        ""
+      ]
     }
   ],
-  "presentations": [
+  "languages": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "language": "English",
+      "fluency": "Native"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "language": "Farsi",
+      "fluency": "Fluent (illiterate)"
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "language": "Spanish",
+      "fluency": "Intermediate"
     }
   ],
-  "teaching": [
+  "interests": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "name": "Reading",
+      "keywords": [
+        "Philosophy",
+        "Fiction",
+        "Systems Thinking"
+      ]
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "name": "Design",
+      "keywords": [
+        "Product Aesthetics",
+        "Engineering Philosophy"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Refer to Portfolio page",
+      "url": "/portfolio/",
+      "description": "Collection of robotics, research, and engineering projects"
     }
   ]
 }
