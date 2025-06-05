@@ -3,6 +3,8 @@ title: "UCLA Thermoscience Research"
 excerpt: "Researched the Fluid Dynamics of String Mass Exchangers in Liquid Desiccant Applications"
 collection: portfolio
 category: research
+order: 3
+completion_date: 2024-06-01
 ---
 Took over as the undergraduate lead researcher experimental research on how **string tension and morphology** influence the fluid behavior of liquid desiccants.
 

@@ -3,6 +3,8 @@ title: "Compliant MEMS micro-mirror system"
 excerpt: "High-speed, Precision Flexure-based Micro-mirror."
 collection: portfolio
 category: engineering
+order: 2
+completion_date: 2024-03-01
 ---
 
 ### MEMS-Based Micro-Mirror System  

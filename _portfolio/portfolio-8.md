@@ -3,6 +3,8 @@ title: "Robotic Arm Manipulator Mechanical Design"
 excerpt: "6 DoF Manufacturing Manipulator (CAD)"
 collection: portfolio
 category: engineering
+order: 3
+completion_date: 2022-06-01
 ---
 As a final project in my Computer Aided Design (CAD) course at UCLA, I worked with a team of four to design a robotic manipulator inspired by the flexibility and adaptability of an octopus tentacle.
 

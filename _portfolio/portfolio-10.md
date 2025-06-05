@@ -3,6 +3,8 @@ title: "Arduino-based Guitar Tuner"
 excerpt: "Guitar Tuner Built From Scratch Using Physics Principles"
 collection: portfolio
 category: engineering
+order: 7
+completion_date: 2021-12-01
 ---
 
 ### Guitar Tuner — Signal Processing with Arduino + Python

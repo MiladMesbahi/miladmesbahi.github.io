@@ -3,6 +3,8 @@ title: "MATLAB Quarter Car Model Controls"
 excerpt: "Active Suspension System Design using MATLAB and Simulink"
 collection: portfolio
 category: engineering
+order: 4
+completion_date: 2024-06-01
 ---
 
 ### Active Suspension System — Quarter-Car Model (MATLAB + Simulink)

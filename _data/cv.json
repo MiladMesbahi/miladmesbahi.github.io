@@ -25,9 +25,21 @@
       "position": "GNC Intern, Engines Team",
       "startDate": "May 2025",
       "endDate": "August 2025",
-      "summary": "Control Systems Analysis for one of their engine systems. Conducting analysis and simulation in Simulink and MATLAB.",
+      "summary": "Contributing to control systems analysis and modeling within the Engines team.",
       "highlights": [
-        "Work is on-going and proprietary."
+        "Simulink & MATLAB",
+        "Work is ongoing and governed by proprietary confidentiality"
+      ]
+    },
+    {
+      "company": "UPenn GRASP Lab (Dr. George Pappas)",
+      "position": "Graduate Researcher",
+      "startDate": "August 2024",
+      "summary": "Researching multi-agent reinforcement learning for robotic agent mapping in a spatiotemporally dynamic environment.",
+      "highlights": [
+        "Deep Learning Methods",
+        "Gaussian Process Regression",
+        "Physics Informed Neural Networks"
       ]
     },
     {
@@ -35,28 +47,33 @@
       "position": "Mechanical Engineering Intern",
       "startDate": "June 2023",
       "endDate": "September 2023",
-      "summary": "Worked on mechanical system design for aerospace applications, including valve optimization for thermal systems.",
+      "summary": "Designed and evaluated chainmail-based damping structures for aerospace vibration mitigation using experimental testing and FEM simulations.",
       "highlights": [
-        "Developed CAD and thermal models for flight hardware",
-        "Collaborated on system integration and test plans"
+        "Achieved up to 98% vibration attenuation with novel mechanical metamaterials",
+        "Performed modal analysis and signal processing (MATLAB) across random vibration spectra"
       ]
     },
     {
-      "company": "UCLA Thermodynamics Laboratory",
+      "company": "UCLA Thermosciences Lab (Dr. Sungtaek Ju)",
       "position": "Undergraduate Researcher",
       "startDate": "January 2022",
       "endDate": "June 2024",
-      "summary": "Conducted experimental and modeling work on thermal and fluid systems under Dr. Sungtaek Ju.",
+      "summary": "Led experimental research on how string tension and morphology influence fluid dynamics in liquid desiccant systems. Developed custom image processing tools and designed precise test setups to advance the lab's core research.",
       "highlights": [
-        "Modeled microscale heat transfer phenomena",
-        "Co-authored internal technical reports"
+        "Engineered experimental rigs to study tension effects on bead formation and flow behavior",
+        "Built MATLAB image-processing algorithms to automate curvature and fluid flow analysis",
+        "Tutorialized the lab setup and tools for future students"
       ]
     },
     {
-      "company": "UPenn GRASP Lab (George Pappas)",
-      "position": "Graduate Researcher",
+      "company": "MAYA (Me and You Always)",
+      "position": "Co-founder",
       "startDate": "August 2024",
-      "summary": "Working on multi-agent reinforcement learning frameworks for exploration in dynamic environments. Focused on Gaussian Processes and control-aware reward shaping."
+      "summary": "Founded a student-facing platform focused on building a community at UCLA. Self-directed development in front-end web design, UI/UX, and user growth strategy.",
+      "highlights": [
+        "Built and launched app, continuously going through product iteration cycles. Peaked at 4,000+ active student users",
+        "Led product, design, and outreach."
+      ]
     }
   ],
   "education": [
@@ -82,10 +99,21 @@
       "startDate": "September 2020",
       "endDate": "June 2024",
       "courses": [
-        "Thermodynamics",
-        "Control Systems",
+        "Engineering Mathematics",
+        "Statics & Structures",
+        "Dynamics of Rigid Bodies",
+        "Fluid Dynamics (Introduction & Elective)",
+        "Materials Science",
+        "Manufacturing (Nanoscale & Nominal)",
         "Heat Transfer",
-        "Embedded Systems"
+        "Thermodynamics (Introduction & Elective)",
+        "Electronics/Circuits",
+        "Dynamical Systems Modeling",
+        "Feedback & Controls",
+        "Compliant Mechanisms",
+        "Computer-Aided Design",
+        "C++ (Intro & Advanced)",
+        "Engineering Management/Finance"
       ]
     }
   ],
@@ -100,12 +128,12 @@
       ]
     },
     {
-      "name": "Robotics, Learning, Control",
+      "name": "Robotics",
       "keywords": [
-        "Linear Models",
-        "PID Control",
-        "PyTorch",
-        "Reinforcement Learning",
+        "Machine Learning",
+        "Convex Opt Methods",
+        "Computer Vision",
+        "Deep Learning/RL",
         "Bayesian Optimization"
       ]
     },
@@ -115,18 +143,20 @@
         "Git",
         "ROS",
         "Gazebo",
-        "CAD (Solidworks/NX), FEA/FEM",
+        "PyTorch",
+        "Solidworks/NX",
         "CVXPY",
         "Simulink"
       ]
     },
     {
-      "name": "Professionalism",
+      "name": "Engineering Design & Manufacturing",
       "keywords": [
-        "Adobe Premier Pro",
-        "Figma",
-        "MSSuite",
-        ""
+        "CAD (FEA/FEM)",
+        "3D Printing",
+        "CNC/CAM",
+        "Milling/Lathing",
+        "FACT Compliant Design"
       ]
     }
   ],

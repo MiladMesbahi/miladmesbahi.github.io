@@ -12,13 +12,15 @@ I’m a Master’s student in Robotics at the University of Pennsylvania (gradua
 
 Research Interests
 ======
-I'm driven by a desire to tackle the world's most pressing, systemic issues. Technically, I am particularly interested in how we make decisions in complex, networked systems; where uncertainty, real-world constraints, and nonlinear dynamics make finding optimal policies deeply challenging.
+I'm driven by a desire to tackle the world's most pressing, systemic issues. 
+
+At the technical frontier, I am particularly interested in how we should make decisions in complex, networked systems; where uncertainty, real-world constraints, and nonlinear dynamics make finding optimal policies deeply challenging.
 
 **Fundamentally:**
 
-- How can we design resilient control and decision-making for large, uncertain systems? 
+- How can we create systems that continuously learn, evolve, and self-organize in the face of complexity?
 
-- How can we balance performance, safety, and efficiency trade-offs in real-time optimization for interconnected networks using probabilistic frameworks?
+- How can we balance performance, safety, and efficiency trade-offs in real-time optimization for networks using probabilistic frameworks?
 
 - How can we model and exploit network interdependencies for high-dimensional systems?
 

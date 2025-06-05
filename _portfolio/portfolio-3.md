@@ -3,6 +3,8 @@ title: "Autonomous Rovers"
 excerpt: "Hands-on development of two autonomous ground vehicles."
 collection: portfolio
 category: robotics
+order: 3
+completion_date: 2024-06-01
 ---
 
 Over the course of my undergraduate studies at UCLA, I worked on two autonomous rover projects that shaped my early

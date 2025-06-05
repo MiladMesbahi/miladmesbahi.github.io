@@ -8,19 +8,25 @@ author_profile: true
 {% include base_path %}
 
 <h2>Research</h2>
-{% assign research_posts = site.portfolio | where: "category", "research" %}
+{% assign research_posts = site.portfolio
+| where: "category", "research"
+| sort: "order" %}
 {% for post in research_posts %}
 {% include archive-single.html %}
 {% endfor %}
 
 <h2>Robotics</h2>
-{% assign robotics_posts = site.portfolio | where: "category", "robotics" %}
+{% assign robotics_posts = site.portfolio
+| where: "category", "robotics"
+| sort: "order" %}
 {% for post in robotics_posts %}
 {% include archive-single.html %}
 {% endfor %}
 
 <h2>Engineering</h2>
-{% assign engineering_posts = site.portfolio | where: "category", "engineering" %}
+{% assign engineering_posts = site.portfolio
+| where: "category", "engineering"
+| sort: "order" %}
 {% for post in engineering_posts %}
 {% include archive-single.html %}
 {% endfor %}
