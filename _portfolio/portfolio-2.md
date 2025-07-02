@@ -42,7 +42,7 @@ Built a robotic pick-and-place system using the **Franka Emika Panda** arm, capa
   - Implemented pre-programmed **sweeping trajectories** for pickup on a rotating platform
   - Achieved **71.4% grasp success rate** in simulation with minimal computation
 
-📄 [Full Project Report (PDF)](/files/Intro_to_Robo__Final_Project_Group_Report.pdf)
+👉 [GitHub Repository](https://github.com/MiladMesbahi/Robot-Arm-Manipulation) | 📄 [Full Project Report (PDF)](/files/Intro_to_Robo__Final_Project_Group_Report.pdf)
 
 
 <script>

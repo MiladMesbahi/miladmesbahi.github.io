@@ -46,7 +46,7 @@ for an advanced autonomous rover built over two quarters in a team of 5.
 - Successfully completed full challenge with functional delivery and stacking
 - Designed within a $500 budget, using V-slot aluminum extrusion and modular acrylic mounts
 
-📄 [Final Presentation PDF](/files/MAE%20162E%20FINAL%20PRESENTATION.pdf)
+👉 [Code Available upon Request] | 📄 [Final Presentation PDF](/files/MAE%20162E%20FINAL%20PRESENTATION.pdf)
 
 ### 2. Pink Lemonade (Intro Robotics Project)
 

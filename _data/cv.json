@@ -3,7 +3,7 @@
     "name": "Milad Mesbahi",
     "email": "mesbahi@seas.upenn.edu",
     "website": "https://miladmesbahi.github.io",
-    "summary": "Graduate student in Robotics at the University of Pennsylvania. Currently working as a GNC intern on the Engines team at Blue Origin, with past experience at NASA JPL and research in thermodynamics and multi-agent reinforcement learning. Applying for PhD programs starting Fall 2026.",
+    "summary": "Masters student in Robotics at the University of Pennsylvania. Currently working as a GNC intern on the Engines team at Blue Origin and researching multi-agent RL in the context of spatiotemporal mapping under Dr. George Pappas. Previous experiences include an internship at NASA JPL, fluid dynamics research at UCLA under Dr. Sungtaek Ju, and co-founding a social networking platform at UCLA that grew to 4000 students. Applying for PhD programs starting Fall 2026.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,11 +35,12 @@
       "company": "UPenn GRASP Lab (Dr. George Pappas)",
       "position": "Graduate Researcher",
       "startDate": "August 2024",
-      "summary": "Researching multi-agent reinforcement learning for robotic agent mapping in a spatiotemporally dynamic environment.",
+      "summary": "Developing multi-agent reinforcement learning frameworks for adaptive salinity mapping with robotic AUVs in highly dynamic coastal environments. Emphasis on spatial-temporal uncertainty reduction, efficient exploration, and coordination under limited sensing and energy constraints.",
       "highlights": [
-        "Deep Learning Methods",
-        "Gaussian Process Regression",
-        "Physics Informed Neural Networks"
+        "Deep learning methods",
+        "Gaussian process regression",
+        "Neural network with uncertainty-aware reward design",
+        "Energy-constrained and dynamics embedded"
       ]
     },
     {
@@ -131,7 +132,7 @@
       "name": "Robotics",
       "keywords": [
         "Machine Learning",
-        "Convex Opt Methods",
+        "Convex Optimization Methods",
         "Computer Vision",
         "Deep Learning/RL",
         "Bayesian Optimization"
@@ -152,6 +153,7 @@
     {
       "name": "Engineering Design & Manufacturing",
       "keywords": [
+        "Signal Processing",
         "CAD (FEA/FEM)",
         "3D Printing",
         "CNC/CAM",

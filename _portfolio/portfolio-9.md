@@ -25,7 +25,7 @@ Designed a feedback controller for an active car suspension system using MATLAB 
   <div role="tablist" class="dots"></div>
 </div>
 
-**Key Highlights**
+### Highlights
 
 - **System Modeling**: Constructed a quarter-car model and derived transfer functions using Laplace transforms to represent the relationship between actuator input, disturbance forces, and system response.
 - **Control Design**: Applied classical control methods -> Bode plots, Nyquist diagrams, and root locus—to develop controllers that met performance specs (e.g., <5% overshoot, <1s settling time).

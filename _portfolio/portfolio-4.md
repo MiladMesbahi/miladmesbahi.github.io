@@ -7,7 +7,7 @@ order: 1
 completion_date: 2023-09-01
 ---
 
-## Vibration Damping with Chainmail Structures  
+### Vibration Damping with Chainmail Structures  
 
 During my internship at NASA JPL, I evaluated **chainmail solids**, a novel damping material developed by a CalTech research lab, as an advanced material for **shock mitigation and vibration damping** in aerospace applications. The work combined engineering testing, data analysis, and dynamics simulation and modeling to understand the chainmail’s behavior.
 
@@ -46,7 +46,7 @@ During my internship at NASA JPL, I evaluated **chainmail solids**, a novel damp
   - Findings suggest chainmail structures are highly promising for aerospace vibration control  
   - Further opportunities exist in multi-axis damping and adaptive structural design
 
-📄 [Read Full Report (PDF)](/files/JPLFinalReport.pdf)
+📄 [Final Report (PDF)](/files/JPLFinalReport.pdf)
 
 
 <script>

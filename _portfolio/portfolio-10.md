@@ -23,7 +23,7 @@ Built a guitar tuner using physics-based signal analysis, Python, and an Arduino
   <div role="tablist" class="dots"></div>
 </div>
 
-**Key Features**
+### Highlights
 
 - **Signal Capture**: Used Arduino + microphone to record sound waves in real time.
 - **Frequency Analysis**: Applied Fast Fourier Transforms (FFT) in Python to extract dominant frequencies and identify note pitches.

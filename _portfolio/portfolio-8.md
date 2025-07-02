@@ -21,7 +21,7 @@ As a final project in my Computer Aided Design (CAD) course at UCLA, I worked wi
   <div role="tablist" class="dots"></div>
 </div>
 
-#### Key Highlights
+### Highlights
 
 - **Design Goals**:
   - Achieved 6 degrees of freedom

@@ -20,7 +20,7 @@ This project involved designing and implementing an autonomous quadrotor capable
 
 Results demonstrated high tracking accuracy across benchmark scenarios (EuRoC MAV datasets), with replanning improving robustness and reduced upfront planning time.
 
-👉 [GitHub Repository](#) | 📄 [Full Report (PDF)](/files/Project_3_Report.pdf)
+👉 [GitHub Repository](https://github.com/MiladMesbahi/Quadrotor) | 📄 [Full Report (PDF)](/files/Project_3_Report.pdf)
 
 
 

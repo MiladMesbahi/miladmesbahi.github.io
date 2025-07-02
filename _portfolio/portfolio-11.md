@@ -11,7 +11,7 @@ Worked on the full design and fabrication cycle of a chair component using both 
 
  <img src="/images/chair3.jpg" alt="Rover 2" class="content-image" />
 
-#### Key Contributions
+### Highlights
 
 - **Manual Machining**:
   - Hands-on experience with lathes and milling machines.
