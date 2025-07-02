@@ -32,7 +32,12 @@ Built a 1-pound combat robot as a two-person team, designed to balance destructi
   - Improved iteratively using FEM and physical testing
 
 📽️ Watch a battle video here
-<video controls width="100%" style="max-width:75%; margin: 1em auto; display: block;">
-  <source src="/images/IMG_1409.mp4" type="video/mp4">
-</video>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em auto;">
+  <iframe 
+    src="https://www.youtube.com/embed/an3E-Qo7vhk" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
