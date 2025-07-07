@@ -20,8 +20,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Book Blog"
-    url: /year-archive/
+  #- title: "Book Blog"
+  #  url: /year-archive/
     
   - title: "CV"
     url: /cv-json/

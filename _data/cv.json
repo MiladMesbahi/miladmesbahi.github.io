@@ -125,6 +125,7 @@
         "Python",
         "MATLAB",
         "C++",
+        "Git",
         "Web Dev (JavaScript, CSS, HTML)"
       ]
     },
@@ -141,7 +142,6 @@
     {
       "name": "Tools & Platforms",
       "keywords": [
-        "Git",
         "ROS",
         "Gazebo",
         "PyTorch",
@@ -156,7 +156,6 @@
         "Signal Processing",
         "CAD (FEA/FEM)",
         "3D Printing",
-        "CNC/CAM",
         "Milling/Lathing",
         "FACT Compliant Design"
       ]
