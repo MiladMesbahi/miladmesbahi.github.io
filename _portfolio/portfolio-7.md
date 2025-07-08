@@ -21,7 +21,7 @@ Took over as the undergraduate lead researcher experimental research on how **st
   <div role="tablist" class="dots"></div>
 </div>
 
-### Key Contributions
+### Highlights
 
 - **Experimental Design & Execution**
   - Designed and built custom setups to control and measure **tension** in cotton strings, including 3D printed and laser cut parts through the UCLA maker space.  

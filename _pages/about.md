@@ -8,29 +8,26 @@ redirect_from:
 ---
 Hello! I’m Milad Mesbahi.
 
-I’m a Master’s student in Robotics at the University of Pennsylvania (graduating 2026) with a B.S. in Mechanical Engineering from UCLA. I am seeking PhD positions for Fall 2026, focusing on control theory, machine learning, and optimization.
+I’m a Master’s student in Robotics at the University of Pennsylvania (Class of 2026), with a B.S. in Mechanical Engineering from UCLA. I’m currently seeking PhD positions for Fall 2026, which will hopefully allow me to fully explore the beautiful intersection of control theory, machine learning, and optimization.
 
 Research Interests
 ======
+What really motivates me to pursue a PhD lies in the challenge designing systems that can make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. The way we choose to represent a system (its structure, its agents, its assumptions) shapes what we can control, predict, or optimize.
 
-At the technical frontier, I am particularly interested in how we should make decisions in complex, networked systems; where uncertainty, real-world constraints, and nonlinear dynamics make finding optimal policies deeply challenging.
+This is where I want to go deeper. I want to pursue not just how to model systems, but when to trust them, how to learn from data and theory, and how we (humans + autonomy) can make principled decisions under uncertainty.
 
 **Fundamentally:**
 
-- How can we create systems that continuously learn, evolve, and self-organize in the face of complexity?
+- How can systems learn, adapt, and stay reliable in unpredictable environments?
 
-- How can we balance performance, safety, and efficiency trade-offs in real-time optimization using probabilistic frameworks?
+- How do we make real-time decisions that are safe, efficient, and grounded in uncertainty?
 
-- How can we model and exploit network interdependencies for high-dimensional systems?
+- How can we rethink the structure of a problem — its geometry, dimensionality, dynamics — to make complexity tractable?
 
-- How can distributed agents achieve safe, pro-social cooperation despite adversarial or conflicting objectives and limited communication?
+- How can groups of agents cooperate safely to yield utilitarian outcomes, even when they don’t fully trust each other or share the same goals?
 
 Through doctoral research, these are the kind of high-level questions I would love to solve.
 
 Philosophy
 ======
-My overarching mission with my education is to serve Earth and empower the communities that sustain it. As both an aspiring researcher and young adult, success in my life will be defined by the purpose and integrity of my work, the strength of my relationships, and my ability to help build a more just and sustainable world.
-
-What Else
-======
-This site also includes a reading journal I started in 2025 — short reflections on every book I’ve read since the beginning of the year. I update it regularly and always welcome new recommendations.
+My overarching mission with my life is to serve Earth and empower the communities that sustain it. As both an aspiring researcher, future entreprenuer, and young adult, success in my life will be defined by the purpose and integrity of my work, the strength and depth of my relationships, and my ability to help build a better and more sustainable world.

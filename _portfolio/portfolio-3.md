@@ -6,10 +6,6 @@ category: robotics
 order: 3
 completion_date: 2024-06-01
 ---
-
-Over the course of my undergraduate studies at UCLA, I worked on two autonomous rover projects that shaped my early
-foundation in robotics. 
-
 ### 1. Senior Capstone Project
 <div class="glider-contain">
   <div class="glider">
@@ -25,12 +21,11 @@ foundation in robotics.
   <div role="tablist" class="dots"></div>
 </div>
 
-For my undergraduate capstone, I was the **mechanical lead** and **co-lead programmer**, 
-for an advanced autonomous rover built over two quarters in a team of 5.  
+For my undergraduate capstone, I was the **mechanical lead** and **co-lead programmer** for a fully autonomous rover built over two quarters in a team of 5.  
 
-**The challenge:** Navigate a black-line course, avoid obstacles, climb a hill, and pick up/stack numbered discs ("burger patties") based on dice rolls — all autonomously and under 5 minutes.
+**The challenge:** Navigate a black-line course with curves, climbs, and obstacles with IR/ultrasonic sensors, pick up/stack numbered discs ("burger patties") based on dice rolls, and doing this while in outdoor condtions, surviving a 6 inch drop test and completing the course under 5 minutes.
 
-#### System Overview:
+### System Overview:
 - **Drive System**: 4-wheel mecanum drive for full omnidirectional motion
 - **Manipulator**: Stepper-driven vertical carriage and dual-servo laser-cut claw for stacking
 - **Perception**:
@@ -41,7 +36,7 @@ for an advanced autonomous rover built over two quarters in a team of 5.
   - Dual-Arduino architecture to split control and perception logic
   - Custom finite state machine for real-time sequencing of navigation, pick-up, and delivery tasks
 
-#### Notable Achievements:
+### Highlights:
 - Only team to implement camera-based die recognition**
 - Successfully completed full challenge with functional delivery and stacking
 - Designed within a $500 budget, using V-slot aluminum extrusion and modular acrylic mounts
@@ -55,7 +50,7 @@ for an advanced autonomous rover built over two quarters in a team of 5.
 This was my first hands-on robotics experience. Our team built an autonomous rover designed to navigate a basic obstacle
 course and retrieve a cylindrical object.
 
-Key features included:
+### Highlights:
 - Rubberized claw for cylindrical object retrieval
 - Autonomous navigation via optimized Arduino logic
 - Rapid prototyping with Prusa Slicer and UCLA makerspace tools
@@ -64,9 +59,6 @@ I led the mechanical design using SolidWorks, creating a chassis that integrated
 battery pack, and claw. Most parts were custom-fabricated using 3D printing and laser cutting at UCLA's fabrication lab, which also ended up being an introduction to additive manufacturing as well.
 
 Overall, we finished **2nd** in the competition out of 8 other UCLA teams.
-
-
-
 
 <script>
   window.addEventListener('load', function(){

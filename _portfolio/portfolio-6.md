@@ -7,7 +7,6 @@ order: 2
 completion_date: 2024-03-01
 ---
 
-### MEMS-Based Micro-Mirror System  
 Designed and optimized a MEMS micro-mirror with one translational degree of freedom for high-precision optical modulation.
 
 ### Highlights
