@@ -12,13 +12,12 @@ I’m a Master’s student in Robotics at the University of Pennsylvania (Class 
 
 Research Interests
 ======
-What really motivates me to pursue a PhD lies in the challenge designing systems that can make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. The way we choose to represent a system (its structure, its agents, its assumptions) shapes what we can control, predict, or optimize.
+What really motivates me to pursue a PhD lies in the challenge designing systems that can make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. The way we choose to represent a system (its structure, its agents, its assumptions) shapes what we can control, predict, and optimize.
 
-This is where I want to go deeper. I want to pursue not just how to model systems, but when to trust them, how to learn from data and theory, and how we (humans + autonomy) can make principled decisions under uncertainty.
 
 **Fundamentally:**
 
-- How can systems learn, adapt, and stay reliable in unpredictable environments?
+- How can systems and agents learn, adapt, and stay reliable in unpredictable environments?
 
 - How do we make real-time decisions that are safe, efficient, and grounded in uncertainty?
 
