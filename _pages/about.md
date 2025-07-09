@@ -8,12 +8,11 @@ redirect_from:
 ---
 Hello! I’m Milad Mesbahi.
 
-I’m a Master’s student in Robotics at the University of Pennsylvania (Class of 2026), with a B.S. in Mechanical Engineering from UCLA. I’m currently seeking PhD positions for Fall 2026, which will hopefully allow me to fully explore the beautiful intersection of control theory, machine learning, and optimization.
+I’m a Master’s student in Robotics at the University of Pennsylvania (Class of 2026), with a B.S. in Mechanical Engineering from UCLA. I’m currently seeking PhD positions for Fall 2026, which will hopefully allow me to further explore the beautiful intersection of control theory, machine learning, and optimization.
 
 Research Interests
 ======
-What really motivates me to pursue a PhD lies in the challenge designing systems that can make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. The way we choose to represent a system (its structure, its agents, its assumptions) shapes what we can control, predict, and optimize.
-
+What really motivates me to pursue a PhD lies in the challenges that come with designing systems that make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. The way we choose to represent a system (its structure, its agents, its assumptions) shapes what we can control, predict, and optimize.
 
 **Fundamentally:**
 
