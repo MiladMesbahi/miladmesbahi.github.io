@@ -8,15 +8,15 @@ redirect_from:
 ---
 Hello! I’m Milad Mesbahi.
 
-I’m a Master’s student in Robotics at the University of Pennsylvania (Class of 2026), with a B.S. in Mechanical Engineering from UCLA. I’m currently seeking PhD positions for Fall 2026, which will hopefully allow me to further explore the beautiful intersection of control theory, machine learning, and optimization.
+I’m a Master’s student in Robotics at the University of Pennsylvania (Class of 2026), with a B.S. in Mechanical Engineering from UCLA. I’m currently seeking PhD positions for Fall 2026 to further explore the frontiers where machine learning, control, and optimization intersect with intelligent systems.
 
-Research Interests
-======
-What really motivates me to pursue a PhD lies in the challenges that come with designing systems that make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. The way we choose to represent a system (its structure, its agents, its assumptions) shapes what we can control, predict, and optimize.
+====== 
+What really motivates me to pursue a PhD lies in the challenges that come with designing systems that make robust, intelligent decisions. Some models of the world are elegantly simple yet surprisingly effective; others are utterly complex but fail to capture what truly matters. I’m fascinated by that tension. I would like to apply mathematical principles to engineer embedded intelligence in agents and systems, following nature's lead of adaptability and efficiency.
+
 
 **Fundamentally:**
 
-- How can systems and agents learn, adapt, and stay reliable in unpredictable environments?
+- How can we embed adaptability and resilience into systems & agents constrained by resources, operating in imperfect conditions? 
 
 - How do we make real-time decisions that are safe, efficient, and grounded in uncertainty?
 
