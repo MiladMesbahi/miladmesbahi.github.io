@@ -12,9 +12,9 @@ I’m a Master’s student in Robotics at the University of Pennsylvania (Class 
 
 Research Interests
 ======
-I’m driven by the puzzle of what makes a system genuinely intelligent. A slime-mold can trace the shortest path through a maze without a signle neuron. An ant colony, through pheromone-based feedback, can adapt routes in real time and distribute labor, all without centralized control. Even a dodder plant, a parasitic vine, can continously perform exploration vs. exploitation decision-making among potential hosts by detecting airborne chemicals, effectively performing multi-sensory optimization with no nervous system.
+I’m driven by the puzzle of what makes a system genuinely intelligent. A slime-mold can trace the shortest path through a maze without a single neuron. An ant colony, through pheromone-based feedback, can adapt routes in real time and distribute labor, all without centralized control. Even a dodder plant, a parasitic vine, can continously perform exploration vs. exploitation decision-making among potential hosts by detecting airborne chemicals, effectively performing multi-sensory optimization with no nervous system.
 
-These examples fascinate me because they challenge our anthropocentric view of intelligence. They show that purposeful behavior can emerge from simple rules, local sensing, and distributed control. This is the foundation of my interest in robotics and autonomous systems: building machines that reason, adapt, and act intelligently in the real world.
+These examples fascinate me because they challenge our anthropocentric view of intelligence. They show that purposeful behavior can emerge from simple rules, local sensing, and distributed control. This is the foundation of my interest in robotics and autonomous systems: building agents that reason, adapt, and act intelligently in the real world.
 
 **Fundamentally, I would like to ask:**
 
