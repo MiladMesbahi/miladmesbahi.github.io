@@ -15,6 +15,15 @@ author_profile: true
 {% include archive-single.html %}
 {% endfor %}
 
+<h2>Work</h2>
+{% assign work_posts = site.portfolio
+| where: "category", "work"
+| sort: "order" %}
+{% for post in work_posts %}
+{% include archive-single.html %}
+{% endfor %}
+
+
 <h2>Robotics</h2>
 {% assign robotics_posts = site.portfolio
 | where: "category", "robotics"
