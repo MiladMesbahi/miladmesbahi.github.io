@@ -3,7 +3,7 @@
     "name": "Milad Mesbahi",
     "email": "mesbahi@seas.upenn.edu",
     "website": "https://miladmesbahi.github.io",
-    "summary": "Masters student in Robotics at the University of Pennsylvania. Currently working as a GNC intern on the Engines team at Blue Origin and researching multi-agent RL in the context of spatiotemporal mapping under Dr. George Pappas. Previous experiences include an internship at NASA JPL, fluid dynamics research at UCLA under Dr. Sungtaek Ju, and co-founding a social networking platform at UCLA that grew to 4000 students. Applying for PhD programs starting Fall 2026.",
+    "summary": "Masters student in Robotics at the University of Pennsylvania. I recently completed an internship at Blue Origin as a GNC engineer for their engines team, and I am currently researching multi-agent RL in the context of spatiotemporal mapping under Dr. George Pappas. Previous experiences include an internship at NASA JPL, fluid dynamics research at UCLA under Dr. Sungtaek Ju, and co-founding a social networking platform at UCLA that grew to 4000 students. Applying for PhD programs starting Fall 2026.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -90,7 +90,9 @@
         "Machine Perception",
         "Advanced Robotics",
         "Bayesian Optimization",
-        "Modern Convex Optimization"
+        "Modern Convex Optimization",
+        "Physical Intelligence",
+        "Control and Optimization with Applications in Robotics"
       ]
     },
     {
