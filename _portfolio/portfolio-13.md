@@ -1,6 +1,6 @@
 ---
 title: "MARL-AUV for Spatiotemporal Mapping"
-excerpt: "ICRA-25 submission in preparation: multi-agent deep RL + active GP regression for salinity mapping of dynamic coastal plumes."
+excerpt: "ICRA-26 submission under review: multi-agent RL + active GP regression for spatiotemporal mapping of dynamic coastal plumes."
 collection: portfolio
 category: research
 order: 1
