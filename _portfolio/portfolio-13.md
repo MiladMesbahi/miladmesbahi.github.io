@@ -4,12 +4,14 @@ excerpt: "ICRA-25 submission in preparation: multi-agent deep RL + active GP reg
 collection: portfolio
 category: research
 order: 1
-completion_date: 2025-07-01
+completion_date:
 ---
 
-**ICRA-25 submission in preparation**
+**ICRA-26 submission under review**
 
-Autonomous salinity mapping is vital for being able to understand estuarine dynamics and environmental change. Our work uses a multi-agent Dueling DQN framework to train AUVs for efficient, reward-driven sampling in a dynamic river plume. Agents observe local salinity, wind, and flow vectors to balance exploration with energy constraints, learning policies that minimize map error against long-term ground truth data. Research is ongoing and will be available soon on arXiv—code available upon request.
+This research focuses on developing collaborative multi-agent learning algorithms and adaptive control strategies for autonomous underwater vehicles to efficiently perform long-term spatiotemporal mapping in dynamic, resource-constrained settings. The work integrates data-driven models with energy-aware decision-making to improve mission endurance and mapping accuracy in complex real-world environments. We have one paper published on arXiv and currently under review at ICRA 2026, demonstrating how multi-agent reinforcement learning combined with Gaussian process regression enables coordinated AUV fleets to map river plumes over multiple days while balancing estimation accuracy and energy efficiency.
+
+Current extensions include: (1) developing 3D mapping capabilities to capture volumetric underwater structure, (2) hardware deployment by interfacing RL policies with low-level vehicle control and bridging the sim-to-real gap, (3) replacing Gaussian process regression with neural operators for more scalable spatiotemporal modeling, and (4) parallel theoretical work on multi-agent communication strategies using Jumanji and MAVA environments.
 
 📽️ Watch 3 agents in action!
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em auto;">

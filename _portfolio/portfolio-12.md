@@ -2,7 +2,7 @@
 title: "Bayesian Optimization for Wide Landscapes (BOWL)"
 excerpt: "Developed my own BayesOpt algo BOWL, combining Entropy‐SGD and Most Probable Descent (MPD) to find robust optima in black-box functions."
 collection: portfolio
-category: research
+category: robotics
 order: 2
 completion_date: 2025-05-01
 ---
