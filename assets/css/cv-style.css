@@ -214,60 +214,31 @@
   border-radius: 4px;
   font-size: 0.9rem;
 }
-
-/* References Styles */
-.cv-references {
-  font-style: italic;
-  color: #666;
+.cv-container {
+  width: 100%;
+  max-width: 950px;
+  margin: 2em auto;
+  padding: 2em 1.25em;
+  box-sizing: border-box;
 }
 
-/* ============================= */
-/* CV: Dark-mode “blend-in” fix  */
-/* ============================= */
-
-/* Replace “body.dark-mode” below with whatever class your theme uses:
-   - Inspect your page when you toggle dark mode—for AcademicPages it’s usually `body.dark-mode`
-   - If you see `html.dark` instead, change `body.dark-mode` → `html.dark`
-*/
-body.dark-mode .cv-container,
-body.dark-mode .cv-item,
-body.dark-mode .cv-section,
-body.dark-mode .cv-header {
-  background-color: transparent !important;
-  color: inherit !important;
-  box-shadow: none !important;
+@media (max-width: 700px) {
+  .cv-container {
+    max-width: 99vw;
+    margin: 0;
+    padding: 1em 4vw;
+  }
 }
 
-body.dark-mode .cv-header,
-body.dark-mode .cv-section h2 {
-  border-color: currentColor !important;
+/* Dark mode: perfectly match your site-wide background */
+html[data-theme="dark"] .cv-container {
+  background: #474747 !important;   /* exact same as --global-bg-color */
+  color: #fff !important;
 }
 
-body.dark-mode .cv-skill-keyword,
-body.dark-mode .cv-project-keyword,
-body.dark-mode .cv-interest-keyword {
-  background-color: transparent !important;
-  border: 1px solid currentColor !important;
-}
-
-/* New: matches your actual toggle class on <html> */
-html.dark .cv-container,
-html.dark .cv-item,
-html.dark .cv-section,
-html.dark .cv-header {
-  background-color: transparent !important;
-  color: inherit !important;
-  box-shadow: none !important;
-}
-
-html.dark .cv-header,
-html.dark .cv-section h2 {
-  border-color: currentColor !important;
-}
-
-html.dark .cv-skill-keyword,
-html.dark .cv-project-keyword,
-html.dark .cv-interest-keyword {
-  background-color: transparent !important;
-  border: 1px solid currentColor !important;
+html[data-theme="dark"] .cv-container,
+html[data-theme="dark"] .cv-container * {
+  color: #fff !important;
+  fill: #fff !important;
+  border-color: #bababa !important;   /* Lighter for subtle section lines, optional */
 }

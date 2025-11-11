@@ -8,6 +8,7 @@
 
 /* Used to set the size for <em> */
 $doc-font-size : 16;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 /* Paragraph indention */
 $paragraph-indent : false; // true, false (default)
@@ -60,9 +61,9 @@ $type-size-6 : 0.75em; // ~12px
 $type-size-7 : 0.6875em; // ~11px
 $type-size-8 : 0.625em; // ~10px
 
-$global-font-family : $sans-serif;
-$header-font-family : $sans-serif;
-$caption-font-family : $serif;
+$global-font-family : 'IBM Plex Mono', monospace;
+$header-font-family : 'IBM Plex Mono', monospace;
+$caption-font-family : 'IBM Plex Mono', monospace;
 
 /* ==========================================================================
    Breakpoints
