@@ -78,4 +78,129 @@ html[data-theme="dark"] .cv-container * {
   fill: #fff !important; // For icons/icons in dark mode
   border-color: #bababa !important; // Or adjust for subtle lines
 }
+/* === FINAL FIX: Perfect centering for author image at all widths === */
 
+/* Center the entire sidebar content block consistently */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers everything horizontally */
+  justify-content: flex-start;
+  text-align: center;
+}
+
+/* Avatar wrapper */
+.sidebar .author__avatar {
+  width: 100%;
+  display: flex !important;
+  justify-content: center; /* ensures image stays centered */
+  margin: 0 auto 1.5rem auto;
+  text-align: center;
+}
+
+/* The image itself */
+.sidebar img.author__avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 210px !important; /* visually aligns with text width */
+  height: auto;
+  border-radius: 12px;         /* keep your rounded corners */
+  object-fit: cover;
+}
+
+#main {
+  margin-top: 0.8rem !important;   /* smaller top gap */
+  padding-top: 0 !important;
+}
+
+.page__footer {
+  padding-top: 0.75rem !important;
+  margin-top: 0.5rem !important;
+}
+
+/* Ensure name, bio, and links remain centered */
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  text-align: center;
+}
+//* --- Mobile: FINAL aligned version --- */
+@media screen and (max-width: 788px) {
+  .page {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #main {
+    margin-top: 0.2rem !important;
+    padding-top: 0 !important;
+  }
+
+  .sidebar {
+    align-items: center !important;
+    text-align: center !important;
+    margin-top: 0.2rem !important;
+  }
+
+  /* Keep image compact */
+  .sidebar .author__avatar {
+    position: relative;
+    margin: 0 auto 0.5rem auto !important;
+    display: block !important;
+    text-align: center;
+    margin-top: 0.6rem !important;
+  }
+
+  .sidebar img.author__avatar {
+    display: block !important;
+    margin: 0 auto !important;
+    max-width: 130px !important;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Hide the old Robotics Graduate Student */
+  .sidebar .author__name {
+    display: none !important;
+  }
+
+  /* ✅ Place new text BELOW image (not beside it) */
+  .sidebar .author__avatar::after {
+    content: "Robotics\AGraduate Student";
+    display: block !important;
+    text-align: center !important;
+    white-space: pre;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.25;
+    color: inherit;
+    margin-top: 0.65rem;
+  }
+
+  /* Keep your subtitle tight and below */
+  .sidebar .author__bio {
+    margin-top: 0.1rem !important;
+    font-size: 0.8rem !important;
+    line-height: 1.3;
+    text-align: center !important;
+  }
+
+  /* Center the follow button */
+  .sidebar .author__urls-wrapper {
+    margin-top: 0.7rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+  }
+
+  .page__footer {
+    padding-top: 0.4rem !important;
+    margin-top: 0.4rem !important;
+  }
+}
+
+
+body {
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
