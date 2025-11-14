@@ -25,19 +25,19 @@ For my undergraduate capstone, I was the **mechanical lead** and **co-lead progr
 
 **The challenge:** Navigate a black-line course with curves, climbs, and obstacles with IR/ultrasonic sensors, pick up/stack numbered discs ("burger patties") based on dice rolls, and doing this while in outdoor condtions, surviving a 6 inch drop test and completing the course under 5 minutes.
 
-### System Overview:
-- **Drive System**: 4-wheel mecanum drive for full omnidirectional motion
-- **Manipulator**: Stepper-driven vertical carriage and dual-servo laser-cut claw for stacking
-- **Perception**:
+### Highlights:
+- Drive System: 4-wheel mecanum drive for full omnidirectional motion
+- Manipulator: Stepper-driven vertical carriage and dual-servo laser-cut claw for stacking
+- Perception:
   - IR Sensor Array for line-following and intersection detection
   - Ultrasonic Sensor for obstacle avoidance
   - Camera + Raspberry Pi Zero 2 W for dice number detection** via OpenCV
-- **Controls**:
+- Control:
   - Dual-Arduino architecture to split control and perception logic
   - Custom finite state machine for real-time sequencing of navigation, pick-up, and delivery tasks
 
-### Highlights:
-- Only team to implement camera-based die recognition**
+### Achievements:
+- Only team to implement camera-based die recognition
 - Successfully completed full challenge with functional delivery and stacking
 - Designed within a $500 budget, using V-slot aluminum extrusion and modular acrylic mounts
 
@@ -47,16 +47,13 @@ For my undergraduate capstone, I was the **mechanical lead** and **co-lead progr
 
 <img src="/images/auto1.jpg" alt="Pink Lemonade Rover" class="content-img" />
 
-This was my first hands-on robotics experience. Our team built an autonomous rover designed to navigate a basic obstacle
-course and retrieve a cylindrical object.
+This was my first hands-on robotics experience. Our team built an autonomous rover designed to navigate a basic obstacle course and retrieve a cylindrical object. I led the mechanical design using SolidWorks, creating a chassis that integrated all major components: sensors, motors,
+battery pack, and claw. Most parts were custom-fabricated using 3D printing and laser cutting at UCLA's fabrication lab, which also ended up being an introduction to additive manufacturing as well.
 
 ### Highlights:
-- Rubberized claw for cylindrical object retrieval
-- Autonomous navigation via optimized Arduino logic
-- Rapid prototyping with Prusa Slicer and UCLA makerspace tools
-
-I led the mechanical design using SolidWorks, creating a chassis that integrated all major components — sensors, motors,
-battery pack, and claw. Most parts were custom-fabricated using 3D printing and laser cutting at UCLA's fabrication lab, which also ended up being an introduction to additive manufacturing as well.
+- Rubberized gripper mechanism for cylindrical object retrieval
+- Autonomous navigation implementation via Arduino and ultrasonic sensing
+- Rapid mechanical design prototyping with Prusa Slicer and UCLA makerspace tools
 
 Overall, we finished **2nd** in the competition out of 8 other UCLA teams.
 

@@ -6,14 +6,12 @@ category: research
 order: 3
 completion_date: 2024-06-01
 ---
-Took over as the undergraduate lead researcher experimental research on how **string tension and morphology** influence the fluid behavior of liquid desiccants.
+Served as lead undergraduate researcher at UCLA’s **Thermosciences Laboratory** under Dr. Sungtaek Ju, investigating how string tension, material properties, and morphology influence the flow behavior of liquid desiccants in string-based mass exchangers.  The work focused on understanding capillary-driven film formation, droplet coalescence, and transport efficiency for energy-efficient dehumidification systems.
 
 <div class="glider-contain">
   <div class="glider">
-    <img src="/images/lab0.png" alt="Rover 2" class="content-image" />
-    <img src="/images/lab1.png" alt="Rover 2 course" class="content-image" />
-    <img src="/images/lab2.png" alt="Rover wiring" class="content-image" />
-    <img src="/images/lab5.png" alt="Rover wiring" class="content-image" />
+    <img src="/images/lab1.png" alt="String tension apparatus" class="content-image small-img" />
+    <img src="/images/lab2.png" alt="Droplet tracking and analysis" class="content-image small-img" />
   </div>
 
   <button aria-label="Previous" class="glider-prev">«</button>
@@ -24,12 +22,12 @@ Took over as the undergraduate lead researcher experimental research on how **st
 ### Highlights
 
 - **Experimental Design & Execution**
-  - Designed and built custom setups to control and measure **tension** in cotton strings, including 3D printed and laser cut parts through the UCLA maker space.  
-  - Ran stress tests to analyze how tension affects **bead formation, motion, spacing, and velocity**  
+  - Built a fully controlled setup to measure tension in cotton strings, including 3D printed and laser cut parts through the UCLA maker space.  
+  - Ran stress tests to to quantify how tension alters bead formation, spacing, and motion.
   - Highlighted a previously overlooked variable (string tension) that did have an impact on fluid flow.
 
 - **Automation & Analysis**
-  - Developed **MATLAB image processing algorithms** to capture string curvature and automate droplet tracking  
+  - Developed MATLAB image processing algorithms to capture string curvature and automate droplet tracking  
   - Enabled faster, more consistent quantification of fluid behavior across multiple trials
   - Helped create lab tutorial videos for future researchers to use for reference.   
 
@@ -48,3 +46,38 @@ Took over as the undergraduate lead researcher experimental research on how **st
     });
   });
 </script>
+<script>
+  window.addEventListener('load', function() {
+    const imgs = document.querySelectorAll('.glider img.content-image');
+    const updateSizes = () => {
+      const w = window.innerWidth;
+      imgs.forEach(img => {
+        img.style.height = 'auto';
+        img.style.margin = '0.6rem auto';
+        img.style.display = 'block';
+        img.style.borderRadius = '6px';
+        img.style.boxShadow = '0 2px 6px rgba(0, 0, 0, 0.05)';
+
+        // 📱 Mobile (under 768px)
+        if (w < 768) {
+          img.style.width = '50%';
+          img.style.maxWidth = '50%';
+        }
+        // 💻 Tablet (768–1200px)
+        else if (w < 1500) {
+          img.style.width = '40%';
+          img.style.maxWidth = '40%';
+        }
+        // 🖥️ Desktop (1200px and up)
+        else {
+          img.style.width = '28%';
+          img.style.maxWidth = '28%';
+        }
+      });
+    };
+
+    updateSizes();
+    window.addEventListener('resize', updateSizes);
+  });
+</script>
+

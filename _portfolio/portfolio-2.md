@@ -6,14 +6,14 @@ category: robotics
 order: 2
 completion_date: 2024-12-01
 ---
-Built a robotic pick-and-place system using the **Franka Emika Panda** arm, capable of handling both static and moving blocks.
+Developed a robotic **pick-and-place system** using the **Franka Emika Panda** arm capable of identifying, tracking, and stacking both stationary and moving blocks. The project integrated computer vision, motion planning, and feedback control for robust and adaptive manipulation.
 
 <div class="glider-contain">
   <div class="glider">
-    <img src="/images/hardware.png" alt="Rover 2" class="content-image" />
-    <img src="/images/staticsim.png" alt="Rover 2 course" class="content-image" />
-    <img src="/images/staticsim2.png" alt="Rover wiring" class="content-image" />
-    <img src="/images/dynamicsim.png" alt="Rover wiring" class="content-image" />
+    <img src="/images/hardware.png" alt="Pick-and-place hardware setup" class="content-image small-img" />
+    <img src="/images/staticsim.png" alt="Static simulation results" class="content-image small-img" />
+    <img src="/images/staticsim2.png" alt="Simulation environment" class="content-image small-img" />
+    <img src="/images/dynamicsim.png" alt="Dynamic grasp simulation" class="content-image small-img" />
   </div>
 
   <button aria-label="Previous" class="glider-prev">«</button>
@@ -23,24 +23,24 @@ Built a robotic pick-and-place system using the **Franka Emika Panda** arm, capa
 
 ### Highlights
 
-- **Object Detection**:
-  - Used **AprilTags + OpenCV** to detect block poses in real time
-  - Dynamically adjusted poses to align coordinate frames and avoid grasping failures
+- Object Detection
+  - Employed AprilTags and OpenCV for real-time block pose estimation  
+  - Dynamically adjusted alignment to reduce grasping errors
 
-- **Control System**:
-  - Closed-loop motion pipeline with:
-    - Pose correction
-    - Inverse kinematics (pseudoinverse method)
-    - Gripper feedback for grasp validation
+- Control System
+  - Implemented a closed-loop pipeline integrating:
+    - Pose correction  
+    - Pseudoinverse-based inverse kinematics  
+    - Gripper force feedback for grasp validation  
 
-- **Static Blocks**:
-  - Averaged multiple scans for noise rejection
-  - Used re-scans and ID-verification for robustness
-  - Achieved **100% grasp success rate** in simulation
+- Static Block Handling
+  - Averaged multiple visual frames to reduce sensor noise  
+  - Re-verified block identity before each grasp  
+  - Achieved 100% grasp success in simulation
 
-- **Dynamic Blocks**:
-  - Implemented pre-programmed **sweeping trajectories** for pickup on a rotating platform
-  - Achieved **71.4% grasp success rate** in simulation with minimal computation
+- Dynamic Block Handling
+  - Designed pre-programmed sweeping trajectories for pickup from a rotating platform  
+  - Achieved 71.4% success rate with minimal latency in simulation 
 
 👉 [GitHub Repository](https://github.com/MiladMesbahi/Robot-Arm-Manipulation) | 📄 [Full Project Report (PDF)](/files/Intro_to_Robo__Final_Project_Group_Report.pdf)
 

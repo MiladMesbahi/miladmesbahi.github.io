@@ -6,17 +6,19 @@ category: robotics
 order: 2
 completion_date: 2025-05-01
 ---
-BOWL (Bayesian Optimization for Wide Landscapes) seeks robust optima—wide, flat basins that remain near-optimal under perturbations by combining Entropy-SGD with an MPD gradient oracle to guide black-box exploration.
+The idea behind is BOWL (Bayesian Optimization for Wide Landscapes) is to extend the Bayesian Optimization algorithm MPD to actively seek optima that exist in wide, flat basins (and hence robust) by combining Entropy-SGD with MPD's gradient oracle to guide black-box exploration.
+
+<img src="/images/flat_min.png" alt="engine" class="content-image" />
 
 ### Highlights
 
-- Hybrid local-entropy objective steers search toward flat regions.  
-- MPD oracle picks descent directions from the GP posterior.  
+- Introduces a hybrid local-entropy objective that steers soptimization toward flat, stable regions of the posterior surface. 
+- MPD oracle derived from the GP posterior suggests descent directions that reflect landscape uncertainty.  
 - Benchmarks (Hartmann-3D, Levy, Branin) show convergence and robustness against noise.
 
 ### Limitations
 
-- Not yet peer-reviewed—still in preprint form. Needs tuning.
+- Not peer-reviewed; still in preprint form. Needs tuning.
 - High computational cost from the inner Entropy-SGD loop.  
 - Sensitive to tuning of Langevin-step sizes and GP update frequency. 
 
