@@ -13,21 +13,21 @@ Built a 1-pound combat robot as a two-person team, designed to balance destructi
 
 ### Highlights
 
-- **Structure**:
+- Structure:
   - Machined high-strength aluminum chassis
   - Designed for ideal strength-to-weight ratio
   - Reinforced using FEA and center of mass analysis
 
-- **Weapon**:
+- Weapon:
   - “Egg beater” drum spinner
   - Accounted for ~30% of total mass
   - Tuned for high impact undercuts
 
-- **Electronics**:
+- Electronics:
   - Bluetooth manual control
   - Shielded internals for shock resistance
 
-- **Performance**:
+- Performance:
   - Survived repeated impacts with minimal damage
   - Improved iteratively using FEM and physical testing
 

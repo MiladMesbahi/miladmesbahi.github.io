@@ -9,25 +9,11 @@ completion_date: 2024-03-01
 
 Designed and optimized a MEMS micro-mirror with one translational degree of freedom for high-precision optical modulation.
 
+<img src="/images/FACT.jpg" alt="fact" class="content-image" />
 ### Highlights
-
-- **Design Approach**:
-  - Applied the FACT (Freedom and Constraint Topologies) framework to build a compliant mechanism with six wire flexures.
-  - Integrated two parallel plate actuators to enable vertical displacement with minimal parasitic motion.
-  - Achieved ~125 µm maximum displacement for fine control.
-
-- **Modeling & Simulation**:
-  - Developed stiffness matrix models in MATLAB.
-  - Verified performance and modal isolation through Finite Element Analysis (FEA).
-  - Ensured primary resonance at ~2.5 kHz with higher modes >15× above.
-
-- **Fabrication Plan**:
-  - Designed for microfabrication via Deep Reactive-Ion Etching (DRIE) and photolithography.
-  - Included aluminum sputtering for electrode definition and mirror reflectivity.
-  - Analyzed electrostatic pull-in thresholds to avoid instability.
-
-- **Applications**:
-  - Suitable for adaptive optics, laser modulation, and compact optical systems.
-  - Prioritized speed, precision, and energy efficiency in micro-scale design.
+- Used the FACT framework to design a six-wire flexure mechanism with parallel plate actuators, enabling precise vertical motion (~125 µm max) with low parasitic error.
+- Modeled stiffness and modal isolation in MATLAB; confirmed high resonance (2.5 kHz+) via FEA.
+- Developed a DRIE and lithography-friendly fabrication plan, including aluminum sputtered electrodes and pull-in analysis.
+- Positioned for adaptive optics and laser systems with a focus on speed, accuracy, and energy efficiency.
 
 📄 [Full Project Report (PDF)](/files/CompliantMechanismReport.pdf)

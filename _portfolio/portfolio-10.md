@@ -6,43 +6,13 @@ category: engineering
 order: 7
 completion_date: 2021-12-01
 ---
+My very first college project! Built a working guitar tuner from scratch using physics, Python, and Arduino. I used a microphone to capture string vibrations, then analyzed signals to identify notes.
 
-### Guitar Tuner — Signal Processing with Arduino + Python
-
-Built a guitar tuner using physics-based signal analysis, Python, and an Arduino with a microphone input to detect and evaluate guitar string frequencies.
-
-<div class="glider-contain">
-  <div class="glider">
-    <img src="/images/maintune.png" alt="Rover wiring" class="content-image" />
-    <img src="/images/tuner2.jpg" alt="Rover 2 course" class="content-image" />
-    <img src="/images/tuner3.jpg" alt="Rover wiring" class="content-image" />
-  </div>
-
-  <button aria-label="Previous" class="glider-prev">«</button>
-  <button aria-label="Next" class="glider-next">»</button>
-  <div role="tablist" class="dots"></div>
-</div>
+<img src="/images/tuner2.jpg" alt="guitar" style="width:300px; height:auto;" />
 
 ### Highlights
-
-- **Signal Capture**: Used Arduino + microphone to record sound waves in real time.
-- **Frequency Analysis**: Applied Fast Fourier Transforms (FFT) in Python to extract dominant frequencies and identify note pitches.
-- **Accuracy**:
-  - Successfully identified most guitar strings with good precision.
-  - Slightly underestimated low E (82.4 Hz), resulting in consistently flat readings.
+- Captured real-time guitar sounds with Arduino and a microphone.
+- Wrote Python code to apply FFTs and extract string frequencies.
+- Achieved good note detection, though the lowest string, E (82.4 Hz), was often slightly flat.
 
 📄 [Final Report (PDF)](/files/ArduinoBasedGuitarTuner.pdf)
-
-<script>
-  window.addEventListener('load', function(){
-    new Glider(document.querySelector('.glider'), {
-      slidesToShow: 1,
-      dots: '.dots',
-      draggable: true,
-      arrows: {
-        prev: '.glider-prev',
-        next: '.glider-next'
-      }
-    });
-  });
-</script>

@@ -14,24 +14,24 @@ Research Interests
 ======
 What truly constitutes intelligence?
 
-Consider the slime mold. Without a single neuron, it can navigate a maze to find the shortest path to its favorite food. Ant colonies are able to ochestrate complex social structures, optimizing resource allocation and distribution without CEOs, org maps, or cell phones. The octopus, a remarkably clever animal, distributes two-thirds of its neurons throughout its arms, allowing for parallel, decentralized decision-making. Plants are brainless and ubiquitous, yet they've shaped evolution and make up 80% of Earth's biomass.
+A slime mold, without a single neuron, can find the shortest path through a maze to its favorite food. Ant colonies ochestrate social networks and very effiecntly allocate and distribute resources. The octopus, with nearly two-thirds of its neurons throughout its arms, is able to make decisions in a parallel, decentralized fashion. Plants are brainless and ubiquitous, yet they've shaped evolution and make up 80% of Earth's biomass.
 
-I believe biology reveals something profound about our traditional, anthropocentric description of intelligence. Purposeful behavior can emerge from simple rules, local interactions, and distributed control rooted in physical engagement with the environment. In this broader view, intelligence is not limited to neural density or algorithmic abstraction, but indeed an embodied property emerging through dynamic processes of adaptation, learning, and self-organization.
+Biology reveals something profound about our traditional, anthropocentric description of intelligence. Purposeful behavior can emerge from simple rules, local interactions, and adaptation to the environment. Intelligence, in this broader sense, is less about neural density or algorithmic abstraction, and more about dynamic processes of learning, coordination, and self-organization.
 
 **Fundamentally, I ask:**
 
-- How can systems learn and adapt while remaining reliable in unstructured, spatiotemporally dynamic environments?
+- How can we design intelligent systems to remain reliable in unstructured, dynamic environments?
 
-- How can agents make decisions that respect real-time constraints, physical dynamics, and fundamental uncertainty? Can we produce formal mathematical guarantees that aren't overly conservative?
+- How can agents make decisions that respect real-time constraints, physical dynamics, and fundamental uncertainty? Can we produce mathematical guarantees on behavior that isn't overly conservative?
 
 - How can we continue to bridge model-based control and learning-based approaches to harness the strengths of both paradigms?
 
-- How can groups of agents cooperate safely and efficiently, even with conflicting objectives and imperfect or incomplete information?
+- What makes safe and efficient cooperation possible in groups with imperfect and/or conflicting information?
 
-- How can we enable effective real-world learning that closes the sim-to-real gap and allows robots to improve through experience?
+- How can we close the gap between simulation and real-world learning for robots?
 
 Through doctoral research, these are the kind of high-level questions I hope to address.
 
 Philosophy
 ======
- The technologies we create should first and foremost serve the planet and the people who depend on it. As an both aspiring researcher and human being, success in my life will be measured by the purpose and integrity of my work, the strength and depth of my relationships, and my capacity to help build a more just and sustainable world.  
+ The technologies we create should first and foremost serve the planet and the people who depend on it. As both a researcher and human being, success in my life will be measured by the purpose and integrity of my work, the strength and depth of my relationships, and my capacity to help build a more just and sustainable world.  

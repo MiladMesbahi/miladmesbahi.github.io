@@ -7,12 +7,12 @@ order: 1
 completion_date: 2023-09-01
 ---
 
-During my internship at NASA JPL, I evaluated **chainmail solids**, a novel damping material developed by a CalTech research lab, as an advanced material for **shock mitigation and vibration damping** in aerospace applications. The work combined engineering testing, data analysis, and dynamics simulation and modeling to understand the chainmail’s behavior.
+I was tasked with evaluating chainmail solids, a novel damping material developed by a CalTech research lab, for its potential to mitigate shocks and vibrations in aerospace systems. My project spanned hands-on engineering, data analysis, and dynamic model building and simulation to understand how the material performs in aerospace conditions.
 
 <div class="glider-contain">
   <div class="glider">
     <img src="/images/chain5.jpg" alt="Rover 2" class="content-image" />
-    <img src="/images/chain2.jpg" alt="Rover 2 course" class="content-image" />
+    <img src="/images/chainmail_hand.png" alt="Rover 2 course" class="content-image" />
     <img src="/images/PSD2.png" alt="Rover wiring" class="content-image" />
     <img src="/images/PSD.png" alt="Rover wiring" class="content-image" />
     <img src="/images/FEM.png" alt="Rover wiring" class="content-image" />
@@ -24,25 +24,11 @@ During my internship at NASA JPL, I evaluated **chainmail solids**, a novel damp
 </div>
 
 ### Highlights
-
-- **Experimental Design**
-  - Built a custom vibrational testing setup using an electric shaker and 8 accelerometers  
-  - Conducted random vibration tests from **20Hz to 2000Hz**  
-  - Chainmail achieved up to **98% reduction in vibration transmissibility** at critical frequencies
-
-- **Signal Processing & Analysis**
-  - Developed MATLAB tools to compute **magnitude**, **phase**, **coherence**, **power spectral density**, and **mode shapes**  
-  - Visualized and interpreted modal behaviors across axes  
-  - Validated experimental results with **Finite Element Method (FEM) simulations**
-
-- **Material Evaluation**
-  - Compared chainmail to solid aluminum and other damping materials  
-  - Demonstrated strong performance in energy attenuation under dynamic excitation  
-  - Investigated chainmail’s **tunability** and **rotational/translational modal behavior**
-
-- **Applications**
-  - Findings suggest chainmail structures are highly promising for aerospace vibration control  
-  - Further opportunities exist in multi-axis damping and adaptive structural design
+- Designed a vibrational testing setup for randomized shaking and multi-axis measurement.
+- Analyzed modal behavior through MATLAB for signal analysis, dissecting magnitude, phase, coherence, and power spectral density. I also built custom scripts to actually visualize the real modal responses.
+- Created and validated a finite element model of the chainmail and test setup.
+- Benchmarked chainmail’s damping properties against standard aerospace materials.
+- Presented findings with JPL’s dynamics team, highlighting chainmail's promise for vibration control and inspiring discussions on adaptive structures for space applications.
 
 📄 [Final Report (PDF)](/files/JPLFinalReport.pdf)
 

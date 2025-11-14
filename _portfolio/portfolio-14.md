@@ -7,7 +7,7 @@ order: 1
 completion_date: 2025-08-01
 ---
 
-I developed the company’s first high-fidelity, electromechanical actuation (EMA) Simulink model for a specific upper-stage rocket engine. This end-to-end model spans detailed motor current control, through cascaded loops, up to valve position commands that regulate engine thrust. It captures the plant’s electrical, mechanical, and nonlinear dynamics to closely match real system behavior, and was designed for both autocode generation and initial FPGA compatibility.
+I developed the company’s first high-fidelity, electromechanical actuation (EMA) Simulink model for a specific upper-stage rocket engine. This end-to-end model spans detailed motor current control, through cascaded loops, up to valve position commands that regulate engine thrust. It captures the plant’s electrical, mechanical, and nonlinear dynamics to closely match real system behavior, and was designed for both auto C-code generation and initial FPGA compatibility.
 
 <img src="/images/Be-3u.jpg" alt="engine" class="content-image" />
 

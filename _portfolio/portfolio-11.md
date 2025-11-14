@@ -9,18 +9,12 @@ completion_date: 2024-06-01
 
 Worked on the full design and fabrication cycle of a chair component using both manual and CNC machining methods.
 
- <img src="/images/chair3.jpg" alt="Rover 2" class="content-image" />
+ <img src="/images/chair3.jpg" alt="Rover 2" style="width:300px; height:auto;" />
 
 ### Highlights
-
-- **Manual Machining**:
-  - Hands-on experience with lathes and milling machines.
-  - Learned to measure precisely, select proper feed rates, and prevent tool/workpiece damage.
-  - Adapted to challenges like overcutting and misalignment.
-- **CNC Machining**:
-  - Programmed toolpaths using SolidCAM and wrote G-code for efficient machining.
-  - Minimized tool changes and machining time.
-  - Calibrated equipment and ensured alignment for tight-tolerance parts.
+- Hands-on with lathes and mills; learned precision measurement and setup.
+- Programmed toolpaths in SolidCAM, wrote G-code, and optimized CNC runs.
+- Solved alignment issues, minimized tool changes, and kept builds within tight tolerances.
 
   
 [📄 Final Report (PDF)](/files/183finalreport.pdf)
