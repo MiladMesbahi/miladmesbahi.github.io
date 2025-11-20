@@ -9,7 +9,7 @@ completion_date: 2022-06-01
 
  <img src="/images/bot.png" alt="Rover 2" class="content-image" />
 
-Built a 1-pound combat robot as a two-person team, designed to balance destructive force and structural durability. Placed **2nd** in a field of advanced competitors.
+Built a 1-pound combat robot as a two-person team, designed to balance destructive force and structural durability. Placed **2nd** in a student competition.
 
 ### Highlights
 
