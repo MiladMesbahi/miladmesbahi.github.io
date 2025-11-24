@@ -1,6 +1,6 @@
 ---
 title: "Reinforcement Learning Drone Racing"
-excerpt: "End-to-End PPO Policy Design for Autonomous High-Speed Gate Navigation"
+excerpt: "End-to-End PPO Policy Design for Autonomous High-Speed Gate Navigation."
 collection: portfolio
 category: robotics
 order: 1
@@ -9,7 +9,7 @@ completion_date: 2025-12-04
 
 I developed an end-to-end reinforcement learning pipeline that trains a quadrotor to race through sequential gates using a custom Proximal Policy Optimization (PPO) implementation in NVIDIA Isaac Sim. This involved writing PPO from scratch, designing a compact but expressive reward function, building a gate-relative observation space, and implementing a domain-randomized reset strategy to enable stable, fast, and directionally-aware flight. By randomizing dynamics parameters (thrust-to-weight, drag, and inner-loop gains), the policy learns behaviors that generalize for sim-to-real transfer. The resulting controller achieves smooth, consistent, and collision-free multi-lap performance.
 
-<img src="/images/Be-3u.jpg" alt="engine" class="content-image" />
+<img src="/images/drone_racing.png" alt="engine" class="content-image" />
 
 ### Highlights
 
