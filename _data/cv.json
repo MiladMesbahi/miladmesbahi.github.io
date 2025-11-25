@@ -3,44 +3,49 @@
     "name": "Milad Mesbahi",
     "email": "mesbahi@seas.upenn.edu",
     "website": "https://miladmesbahi.github.io",
-    "summary": "Masters student in Robotics at the University of Pennsylvania. I recently completed an internship at Blue Origin as a GNC engineer for their engines team, and I am currently researching multi-agent RL in the context of spatiotemporal mapping under Dr. George Pappas. Previous experiences include an internship at NASA JPL, fluid dynamics research at UCLA under Dr. Sungtaek Ju, and co-founding a social networking platform at UCLA that grew to 4000 students. Applying for PhD programs starting Fall 2026.",
+    "summary": "Robotics master’s student at UPenn interested in how learning and control combine to produce adaptive, reliable behavior in the physical world. I’m drawn to questions regarding how systems can generalize, reason under incomplete information, and act safely in dynamic environments. My end-to-end experiences span across the full autonomy stack, and I aim to develop hybrid learning–control frameworks that bridge high-level reasoning with verifiable low-level execution. I’m pursuing PhD programs starting Fall 2026.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Philadelphia",
-      "countryCode": "US",
-      "region": "Pennsylvania"
+      "region": "Pennsylvania",
+      "countryCode": "US"
     },
     "profiles": [
       {
         "network": "GitHub",
         "username": "MiladMesbahi",
         "url": "https://github.com/MiladMesbahi"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/milad-mesbahi"
       }
     ]
   },
+
   "work": [
     {
       "company": "Blue Origin",
-      "position": "GNC Intern, Engines Team",
+      "position": "GNC Intern — Engines Team",
       "startDate": "May 2025",
       "endDate": "August 2025",
-      "summary": "Contributing to control systems analysis and modeling within the Engines team.",
+      "summary": "Developed Blue Origin’s first high-fidelity electromechanical actuator (EMA) model for an upper-stage rocket engine using Simulink.",
       "highlights": [
-        "Simulink & MATLAB",
-        "Work is ongoing and governed by proprietary confidentiality"
+        "Built full EMA stack: FOC current control → cascaded speed/position loops → valve actuation.",
+        "Created physics-based electrical–mechanical plant capturing nonlinear EMA dynamics.",
+        "Delivered validated, auto-code-generating model ready for hardware-in-the-loop integration."
       ]
     },
     {
-      "company": "UPenn GRASP Lab (Dr. George Pappas)",
-      "position": "Graduate Researcher",
-      "startDate": "August 2024",
-      "summary": "Developing multi-agent reinforcement learning frameworks for adaptive salinity mapping with robotic AUVs in highly dynamic coastal environments. Emphasis on spatial-temporal uncertainty reduction, efficient exploration, and coordination under limited sensing and energy constraints.",
+      "company": "UPenn GRASP Lab (Prof. George Pappas)",
+      "position": "Graduate Researcher & Teaching Assistant",
+      "startDate": "November 2024",
+      "endDate": "Present",
+      "summary": "Researching multi-agent reinforcement learning for long-term environmental monitoring with autonomous underwater vehicles.",
       "highlights": [
-        "Deep learning methods",
-        "Gaussian process regression",
-        "Neural network with uncertainty-aware reward design",
-        "Energy-constrained and dynamics embedded"
+        "Developing DQN-based multi-agent coordination algorithm with Gaussian Process plume estimation.",
+        "Achieved improved accuracy and endurance over baselines in Delft3D simulations; ICRA 2026 submission.",
+        "Extending system to 3D mapping and hardware deployment.",
+        "TA for Linear Systems Theory; Lead TA for Convex Optimization (Spring 2026)."
       ]
     },
     {
@@ -48,96 +53,88 @@
       "position": "Mechanical Engineering Intern",
       "startDate": "June 2023",
       "endDate": "September 2023",
-      "summary": "Designed and evaluated chainmail-based damping structures for aerospace vibration mitigation using experimental testing and FEM simulations.",
+      "summary": "Evaluated Caltech chainmail metamaterials for aerospace vibration mitigation.",
       "highlights": [
-        "Achieved up to 98% vibration attenuation with novel mechanical metamaterials",
-        "Performed modal analysis and signal processing (MATLAB) across random vibration spectra"
+        "Designed multi-axis vibration tests and performed modal analysis in MATLAB.",
+        "Built and validated FEM models; identified ~98% vibration attenuation.",
+        "Presented results to JPL Dynamics team for potential spacecraft applications."
       ]
     },
     {
-      "company": "UCLA Thermosciences Lab (Dr. Sungtaek Ju)",
+      "company": "UCLA Thermosciences Lab (Prof. Sungtaek Ju)",
       "position": "Undergraduate Researcher",
-      "startDate": "January 2022",
+      "startDate": "January 2023",
       "endDate": "June 2024",
-      "summary": "Led experimental research on how string tension and morphology influence fluid dynamics in liquid desiccant systems. Developed custom image processing tools and designed precise test setups to advance the lab's core research.",
+      "summary": "Investigated capillary-driven liquid desiccant flow in string-based mass exchangers.",
       "highlights": [
-        "Engineered experimental rigs to study tension effects on bead formation and flow behavior",
-        "Built MATLAB image-processing algorithms to automate curvature and fluid flow analysis",
-        "Tutorialized the lab setup and tools for future students"
+        "Fabricated precision test rigs and performed controlled tension-dependent experiments.",
+        "Developed MATLAB image-processing pipeline for droplet tracking and curvature analysis.",
+        "Identified tension as a key factor in transport efficiency; produced training materials for lab onboarding."
       ]
     },
     {
       "company": "MAYA (Me and You Always)",
-      "position": "Co-founder",
-      "startDate": "August 2024",
-      "summary": "Founded a student-facing platform focused on building a community at UCLA. Self-directed development in front-end web design, UI/UX, and user growth strategy.",
+      "position": "Co-founder — Product & Growth",
+      "startDate": "May 2022",
+      "endDate": "April 2024",
+      "summary": "Co-founded a UCLA-wide social platform focused on community discovery and student engagement.",
       "highlights": [
-        "Built and launched app, continuously going through product iteration cycles. Peaked at 4,000+ active student users",
-        "Led product, design, and outreach."
+        "Designed and developed core product features (UI/UX + full-stack web).",
+        "Scaled platform organically to 4,000+ active UCLA students.",
+        "Led product design, growth strategy, and campus outreach."
       ]
     }
   ],
+
   "education": [
     {
       "institution": "University of Pennsylvania",
-      "area": "M.S. in Robotics",
+      "area": "M.S. Robotics",
       "studyType": "Graduate",
       "startDate": "August 2024",
       "endDate": "May 2026",
       "courses": [
-        "Introduction to Robotics",
         "Machine Learning",
         "Machine Perception",
-        "Advanced Robotics",
+        "Intro & Advanced Robotics",
+        "Convex Optimization",
         "Bayesian Optimization",
-        "Modern Convex Optimization",
-        "Physical Intelligence",
-        "Control and Optimization with Applications in Robotics"
+        "Control & Optimization for Robotics",
+        "Physical Intelligence"
       ]
     },
     {
       "institution": "University of California, Los Angeles",
-      "area": "B.S. in Mechanical Engineering",
+      "area": "B.S. Mechanical Engineering",
       "studyType": "Undergraduate",
       "startDate": "September 2020",
       "endDate": "June 2024",
       "courses": [
-        "Engineering Mathematics",
-        "Statics & Structures",
-        "Dynamics of Rigid Bodies",
-        "Fluid Dynamics (Introduction & Elective)",
-        "Materials Science",
-        "Manufacturing (Nanoscale & Nominal)",
-        "Heat Transfer",
-        "Thermodynamics (Introduction & Elective)",
-        "Electronics/Circuits",
-        "Dynamical Systems Modeling",
+        "Dynamics",
         "Feedback & Controls",
-        "Compliant Mechanisms",
-        "Computer-Aided Design",
-        "C++ (Intro & Advanced)",
-        "Engineering Management/Finance"
+        "Fluid Dynamics",
+        "Heat Transfer",
+        "Thermodynamics",
+        "Mechanics of Materials",
+        "CAD & Manufacturing",
+        "Advanced Programming in C++"
       ]
     }
   ],
+
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Python",
-        "MATLAB",
-        "C++",
-        "Git",
-        "Web Dev (JavaScript, CSS, HTML)"
-      ]
+      "keywords": ["Python", "C++", "MATLAB", "Bash", "JavaScript/HTML/CSS", "Git"]
     },
     {
-      "name": "Robotics",
+      "name": "Robotics & ML",
       "keywords": [
-        "Machine Learning",
-        "Convex Optimization Methods",
+        "Reinforcement Learning (PPO, DQN)",
+        "Deep Learning",
+        "Gaussian Processes",
+        "Convex Optimization",
         "Computer Vision",
-        "Deep Learning/RL",
         "Bayesian Optimization"
       ]
     },
@@ -145,48 +142,36 @@
       "name": "Tools & Platforms",
       "keywords": [
         "ROS",
+        "Isaac Sim",
         "Gazebo",
         "PyTorch",
-        "Solidworks/NX",
+        "COLMAP",
+        "Drake",
+        "Simulink (FOC, MPC, LQR)",
         "CVXPY",
-        "Simulink"
+        "Docker/Conda/VMs",
+        "SolidWorks",
+        "NX",
+        "FEM/FEA"
       ]
     },
     {
-      "name": "Engineering Design & Manufacturing",
-      "keywords": [
-        "Signal Processing",
-        "CAD (FEA/FEM)",
-        "3D Printing",
-        "Milling/Lathing",
-        "FACT Compliant Design"
-      ]
+      "name": "Hardware & Prototyping",
+      "keywords": ["Arduino", "Raspberry Pi", "Sensors", "3D Printing", "CNC & Machining"]
     }
   ],
+
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Native"
-    },
-    {
-      "language": "Farsi",
-      "fluency": "Fluent speaker (illiterate)"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Intermediate"
-    }
+    { "language": "English", "fluency": "Native" },
+    { "language": "Farsi", "fluency": "Fluent speaker" },
+    { "language": "Spanish", "fluency": "Intermediate" }
   ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ],
+
   "portfolio": [
     {
-      "name": "Refer to Portfolio page",
+      "name": "Portfolio",
       "url": "/portfolio/",
-      "description": "Collection of robotics, research, and engineering projects"
+      "description": "Collection of robotics, RL, control systems, and engineering projects."
     }
   ]
 }

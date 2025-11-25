@@ -22,9 +22,9 @@ I developed an end-to-end reinforcement learning pipeline that trains a quadroto
 📽️ Watch the drone in action!
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em auto;">
   <iframe 
-    src="https://youtu.be/tzjplSZInUk" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    src="https://www.youtube.com/embed/tzjplSZInUk"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
   </iframe>
