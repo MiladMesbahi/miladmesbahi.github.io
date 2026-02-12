@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "General Engineering"
+permalink: /portfolio/engineering/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign posts = site.portfolio | where: "category", "engineering" | sort: "order" %}
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}

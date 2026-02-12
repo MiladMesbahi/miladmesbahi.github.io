@@ -39,8 +39,13 @@ html {
     font-size: 13px;
   }
 }
+.section-label {
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 1.1;
+}
 
-cv-container {
+.cv-container {
   width: 100%;
   max-width: 1200px;          /* Allow MUCH wider max width on desktop */
   min-width: 300px;
@@ -124,7 +129,7 @@ html[data-theme="dark"] .cv-container * {
 .sidebar .author__urls-wrapper {
   text-align: center;
 }
-//* --- Mobile: FINAL aligned version --- */
+
 @media screen and (max-width: 788px) {
   .page {
     padding-top: 0 !important;
@@ -203,4 +208,121 @@ html[data-theme="dark"] .cv-container * {
 body {
   margin-top: 1rem !important;
   margin-bottom: 0.5rem !important;
+}
+
+/* ===== Portfolio landing ===== */
+
+.portfolio-intro{
+  margin: 0.5rem 0 1.25rem 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  opacity: .9;
+  max-width: 58ch;
+}
+
+/* Make the grid fill the content column and feel “designed” */
+.portfolio-cards{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.25rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+@media (max-width: 900px){
+  .portfolio-cards{ grid-template-columns: 1fr; }
+}
+
+.flip-card{
+  display: block;
+  text-decoration: none;
+  border-radius: 22px;
+  overflow: hidden;
+  perspective: 1400px;
+  width: 100%;
+  min-height: 320px;   /* BIGGER cards */
+}
+
+.flip-card-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  transform-style: preserve-3d;
+  transition: transform .55s ease;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back{
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: 22px;
+}
+
+.flip-card-front{
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.flip-card-overlay{
+  width: 100%;
+  padding: 1.35rem 1.35rem;
+  background: linear-gradient(to top, rgba(0,0,0,.72), rgba(0,0,0,0));
+}
+
+.flip-card-overlay h2{
+  margin: 0;
+  color: #fff;
+  font-size: 1.6rem;   /* Bigger title */
+  letter-spacing: .2px;
+}
+
+/* Back side */
+.flip-card-back{
+  transform: rotateY(180deg);
+  padding: 1.35rem 1.35rem;
+  background: rgba(255,255,255,.97);
+  border: 1px solid rgba(0,0,0,.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+html[data-theme="dark"] .flip-card-back{
+  background: rgba(22,22,22,.97);
+  border-color: rgba(255,255,255,.12);
+}
+
+.flip-card-back h3{
+  margin: 0 0 .5rem 0;
+  font-size: 1.35rem;
+}
+
+.flip-card-back p{
+  margin: 0 0 1.0rem 0;
+  opacity: .9;
+  line-height: 1.45;
+  font-size: 1.02rem;
+}
+
+.flip-card-cta{
+  font-weight: 700;
+  margin-top: .25rem;
+}
+
+/* Optional: a short caption UNDER each card (front-facing) */
+.portfolio-card-caption{
+  margin-top: .65rem;
+  font-size: .95rem;
+  opacity: .85;
+  line-height: 1.4;
 }

@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Robotics"
+permalink: /portfolio/robotics/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign posts = site.portfolio | where: "category", "robotics" | sort: "order" %}
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}

@@ -6,36 +6,68 @@ author_profile: true
 ---
 
 {% include base_path %}
-
-<h2>Research</h2>
-{% assign research_posts = site.portfolio
-| where: "category", "research"
-| sort: "order" %}
-{% for post in research_posts %}
-{% include archive-single.html %}
-{% endfor %}
-
-<h2>Work</h2>
-{% assign work_posts = site.portfolio
-| where: "category", "work"
-| sort: "order" %}
-{% for post in work_posts %}
-{% include archive-single.html %}
-{% endfor %}
+<p class="portfolio-intro">
+  Here are collections of some of my projects. Click a category to explore highlights, write-ups, and links.
+</p>
 
 
-<h2>Robotics</h2>
-{% assign robotics_posts = site.portfolio
-| where: "category", "robotics"
-| sort: "order" %}
-{% for post in robotics_posts %}
-{% include archive-single.html %}
-{% endfor %}
+<div class="portfolio-cards">
+   <a class="flip-card" href="{{ base_path }}/portfolio/robotics/">
+    <div class="flip-card-inner">
+      <div class="flip-card-front" style="background-image: url('{{ base_path }}/images/robotics.jpg');">
+        <div class="flip-card-overlay">
+          <h2>Robotics</h2>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>Robotics</h3>
+        <p>Robotics and autonomy projects across undergraduate and graduate work.</p>        <span class="flip-card-cta">Explore →</span>
+      </div>
+    </div>
+  </a>
 
-<h2>Engineering</h2>
-{% assign engineering_posts = site.portfolio
-| where: "category", "engineering"
-| sort: "order" %}
-{% for post in engineering_posts %}
-{% include archive-single.html %}
-{% endfor %}
+   <a class="flip-card" href="{{ base_path }}/portfolio/research/">
+    <div class="flip-card-inner">
+      <div class="flip-card-front" style="background-image: url('{{ base_path }}/images/research.jpg');">
+        <div class="flip-card-overlay">
+          <h2>Research</h2>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>Research</h3>
+        <p>Research projects from UPenn and UCLA.</p>
+        <span class="flip-card-cta">Explore →</span>
+      </div>
+    </div>
+  </a>
+
+    <a class="flip-card" href="{{ base_path }}/portfolio/internships/">
+    <div class="flip-card-inner">
+      <div class="flip-card-front" style="background-image: url('{{ base_path }}/images/internships.jpg');">
+        <div class="flip-card-overlay">
+          <h2>Internships</h2>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>Internships</h3>
+        <p>Industry work from summer internships at Blue Origin and NASA JPL.</p>
+        <span class="flip-card-cta">Explore →</span>
+      </div>
+    </div>
+  </a>
+
+ <a class="flip-card" href="{{ base_path }}/portfolio/engineering/">
+    <div class="flip-card-inner">
+      <div class="flip-card-front" style="background-image: url('{{ base_path }}/images/engineering.jpg');">
+        <div class="flip-card-overlay">
+          <h2>General Engineering</h2>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h3>General Engineering</h3>
+        <p>Mechanical engineering projects from UCLA and independent builds.</p>
+        <span class="flip-card-cta">Explore →</span>
+      </div>
+    </div>
+  </a>
+</div>

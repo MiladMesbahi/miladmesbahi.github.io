@@ -1,37 +1,25 @@
 ---
 permalink: /
-title: "About"
+title: "Hello World!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Hello! I’m Milad Mesbahi.
 
-I'm a M.S. student in Robotics at the University of Pennsylvania (Class of 2026), with a B.S. in Mechanical Engineering from UCLA. I’m in the midst of applying for PhD positions starting Fall 2026, with a desired focus at the intersection of control theory, machine learning, and optimization within the context of robot learning and autonomous systems. 
+*“Feedback is a method of controlling a system by reinserting into it the results of its past performance… if [this] is able to change the general method and pattern of performance, we have a process which may well be called learning.”* — Norbert Weiner
 
-Research Interests
-======
-What truly constitutes intelligence?
+<span class="section-label">About.</span> I’m a Robotics M.S. student and researcher at the University of Pennsylvania GRASP Lab, advised by Professor George Pappas. I earned my B.S. in Mechanical Engineering from UCLA and plan to start a Ph.D. in Fall 2026. This page serves to track my work, and I’ll be trying to post short notes soon on topics I enjoy learning and how I’ve come to understand them.
 
-A slime mold, without a single neuron, can find the shortest path through a maze to its favorite food. Ant colonies ochestrate social networks and very effiecntly allocate and distribute resources. The octopus, with nearly two-thirds of its neurons throughout its arms, is able to make decisions in a parallel, decentralized fashion. Plants are brainless and ubiquitous, yet they've shaped evolution and make up 80% of Earth's biomass.
+<span class="section-label">Why Robotics.</span> Nature suggests intelligence is less about substrate and more about closing the loop between perception, computation, and action. Slime mold are able to trace shortest paths to their favorite food (oats) using chemical gradients; ants coordinate vast, decentralized colonies with minimal computation; octopi push much of their perception and control into their arms, distributing two-thirds of their 500 million neurons across eight limbs; and plants, lack a nervous system entirely, comprise 80% of Earth’s biomass through signalling and tropisms unfolding over evolutionary time.
 
-Biology reveals something profound about our traditional, anthropocentric description of intelligence. Purposeful behavior can emerge from simple rules, local interactions, and adaptation to the environment. Intelligence, in this broader sense, is less about neural density or algorithmic abstraction, and more about dynamic processes of learning, coordination, and self-organization.
+To me, robotics is our most direct and exciting attempt to engineer that same loop on physical systems. Coined by Karel Čapek’s 1920 play R.U.R. (from the Czech robota), the field grew out of fiction and now sits at an intriguing intersection of science, art, math, philosophy, and economics. My passion for all—things autonomy comes from a fascination with these worlds, and from a conviction that we should build and leverage these intelligent systems to address the problems that shape human and planetary flourishing.
 
-**Fundamentally, I ask:**
+<span class="section-label">Technical Interests.</span>   I’m most interested in autonomy that combines learning + control for tasks executed on actual hardware:  
++ Real-world RL: sample-efficient, uncertainty-aware learning that works on hardware
++ Planning + constrained optimization: MPC/trajectory optimization with learned models and policies
++ Complex manipulation: contact-rich, long-horizon skills
++ Multi-agent autonomy: coordination and learning under partial or conflicting information
++ Safety + guarantees: robustness, generalization, and reliable behavior on critical tasks
 
-- How can we design intelligent systems to remain reliable in unstructured, dynamic environments?
 
-- How can agents make decisions that respect real-time constraints, physical dynamics, and fundamental uncertainty? Can we produce mathematical guarantees on behavior that isn't overly conservative?
-
-- How can we continue to bridge model-based control and learning-based approaches to harness the strengths of both paradigms?
-
-- What makes safe and efficient cooperation possible in groups with imperfect and/or conflicting information?
-
-- How can we close the gap between simulation and real-world learning for robots?
-
-Through doctoral research, these are the kind of high-level questions I hope to address.
-
-Philosophy
-======
- The technologies we create should first and foremost serve the planet and the people who depend on it. As both a researcher and human being, success in my life will be measured by the purpose and integrity of my work, the strength and depth of my relationships, and my capacity to help build a more just and sustainable world.  
