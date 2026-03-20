@@ -18,7 +18,7 @@ Robotics, to me, feels like our way of exploring those same ideas. I like workin
 
 <span class="section-label">Technical Interests.</span> 
 I want to be a full-stack roboticist and am most interested in autonomy that combines learning and control. 
-+ Real-world RL: sample-efficient, uncertainty-aware methods on physical systems
++ Real-world reinforcement learning
 + Dexterous manipulation
 + World models and representations
 + Multi-agent autonomy
