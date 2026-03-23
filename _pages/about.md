@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-*“I repeat, feedback is a method for controlling a system by reinserting into it the results of its past performance. If these results are merely used as numerical data for the criticism of the system and its regulation, we have the simple feedback of the control engineers. If, however, the information which proceeds backward from the performance is able to change the general method and pattern of performance, we have a process which may well be called learning.”* — Norbert Wiener
+*“I repeat, feedback is a method of controlling a system by reinserting into it the results of its past performance ... If the information which proceeds backward ... is able to change the general method and pattern of performance, we have a process which may well be called learning”* — Norbert Wiener
 
 <span class="section-label">About.</span> 
 I’m a Robotics M.S. student and researcher in the GRASP Lab at the University of Pennsylvania, advised by Dr. George Pappas. I recieved my B.S. in Mechanical Engineering from UCLA, have spent time at Blue Origin and NASA JPL, and will begin a Ph.D. focused on robot learning in Fall 2026. 
