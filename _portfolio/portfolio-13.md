@@ -1,22 +1,21 @@
 ---
 title: "MARL-AUV for Spatiotemporal Mapping"
-excerpt: "ICRA-26 submission under review: multi-agent RL + active GP regression for spatiotemporal mapping of dynamic coastal plumes."
+excerpt: "Multi-agent reinforcement learning for spatiotemporal mapping of dynamic coastal plumes."
 collection: portfolio
 category: research
 order: 1
 completion_date:
 ---
 
-**ICRA-26 submission under review**
+**ICRA-26 submission accepted!**
 
-This research focuses on developing collaborative multi-agent learning algorithms and adaptive control strategies for autonomous underwater vehicles to efficiently perform long-term spatiotemporal mapping in dynamic, resource-constrained settings. The work integrates data-driven models with energy-aware decision-making to improve mission endurance and mapping accuracy in complex real-world environments. We have one paper published on arXiv and currently under review at ICRA 2026, demonstrating how multi-agent reinforcement learning combined with Gaussian process regression enables coordinated AUV fleets to map river plumes over multiple days while balancing estimation accuracy and energy efficiency.
+We are building teams of autonomous underwater robots that can work together to track and map changing ocean and river environments over many days, even when energy, communication, and sensing are limited. The core idea is to give these robots learning-based decision-making so they can choose where to go and what to measure to get the most useful information with the constrained resources they have.
 
-Current extensions include: (1) extending our work to 3D, (2) hardware deployment by interfacing our RL policy with low-level vehicle control, (3) replacing Gaussian process regression with neural operators for more scalable spatiotemporal modeling, and (4) theoretical work on multi-agent communication strategies using Jumanji and MAVA environments.
+Our first paper, accepted to ICRA 2026, shows how multiple robots can learn to map dynamic coastal plumes while balancing map accuracy and battery life. We are now pushing this further by: extending our methods from surface maps to full 3D environments, deploying the system on real hardware, exploring more scalable learned models in place of Gaussian processes, adding denoising for noisy real-world sensors, and running broader comparisons and ablation studies. We are also exploring some theoretical work on multi-agent robot communication and credit assignment.
 
-📽️ Watch 3 agents in action!
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em auto;">
   <iframe 
-    src="https://www.youtube.com/embed/QxnMhjMl6C0?autoplay=1&mute=1" 
+    src="https://www.youtube.com/embed/PeT4anrqZY4?autoplay=1&mute=1" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen

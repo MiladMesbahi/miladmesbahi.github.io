@@ -9,14 +9,15 @@ completion_date: 2025-05-01
 
  <img src="/images/CrazyFlie20.jpg" alt="Rover 2" class="content-img"/>
 
-This project involved designing and implementing an autonomous quadrotor capable of navigating complex, GPS-denied environments using onboard sensing and computation. The system integrated global A* path planning, flat-output trajectory generation, and a geometric SE(3) controller with visual-inertial state estimation via an error-state Kalman filter.
+This project was about getting a quadrotor to fly on its own through cluttered spaces without GPS, using only its onboard cameras and IMU. I tied together global planning, smooth trajectory generation in the quadrotor’s differentially flat space, low-level control, and visual–inertial state estimation into one end-to-end system, then added real-time replanning so the drone could react to obstacles and drift as it flew.
 
-### Highlights
++ Planned collision-free 3D paths on a voxel map, then converted them into minimum-jerk 5th-order polynomial trajectories in the flat outputs.
 
-- **Planning**: Generated collision-free trajectories using a voxel-based A* search and sparse minimum-jerk polynomial fitting.
-- **Control**: Tuned a nonlinear SE(3) controller to track aggressive maneuvers with aerodynamic drag compensation.
-- **State Estimation**: Fused IMU and stereo vision data using an error-state Kalman filter for accurate 6-DOF pose tracking.
-- **Extra Credit**: Added real-time local replanning with a two-mode state machine to dynamically avoid obstacles and recover from drift.
++ Tuned a nonlinear SE(3) controller (with simple drag compensation) to track fast, agile motions.
+
++ Fused stereo vision and IMU data with an error-state Kalman filter to estimate the drone’s full 6-DOF pose without GPS.
+
++ Added a real-time local replanning state machine that detects impending collisions or drift and quickly switches the drone onto a freshly computed short-horizon path.
 
 Results demonstrated high tracking accuracy across benchmark scenarios (EuRoC MAV datasets), with replanning improving robustness and reduced upfront planning time.
 

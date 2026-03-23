@@ -6,13 +6,9 @@ category: engineering
 order: 7
 completion_date: 2021-12-01
 ---
-My very first college project! Built a working guitar tuner from scratch using physics, Python, and Arduino. I used a microphone to capture string vibrations, then analyzed signals to identify notes.
+This was my first college project! It’s pretty funny to look back on it now and see where I started. I put together a simple Arduino guitar tuner, where a mic picked up the string, the Arduino streamed samples to Python, and I used basic FFTs to guess the note. It mostly worked, struggled a bit on low E, but it was the first time I really mashed physics, code, and hardware together into something you could actually use. Gotta start somewhere!
+
 
 <img src="/images/tuner2.jpg" alt="guitar" style="width:300px; height:auto;" />
-
-### Highlights
-- Captured real-time guitar sounds with Arduino and a microphone.
-- Wrote Python code to apply FFTs and extract string frequencies.
-- Achieved good note detection, though the lowest string, E (82.4 Hz), was often slightly flat.
 
 📄 [Final Report (PDF)](/files/ArduinoBasedGuitarTuner.pdf)

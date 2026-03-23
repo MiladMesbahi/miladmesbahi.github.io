@@ -21,25 +21,9 @@ completion_date: 2024-06-01
   <div role="tablist" class="dots"></div>
 </div>
 
-For my undergraduate capstone, I was the **mechanical lead** and **co-lead programmer** for a fully autonomous rover built over two quarters in a team of 5.  
+For my undergrad capstone, I was the mechanical lead and co‑lead programmer on a fully autonomous rover built over two quarters with a team of five. The challenge was to follow a black‑line course with curves, ramps, and obstacles, stacking numbered discs (representing burger patties 🙂) based on dice rolls, survive a 6‑inch drop, and still finish the course in under five minutes.
 
-**The challenge:** Navigate a black-line course with curves, climbs, and obstacles with IR/ultrasonic sensors, pick up/stack numbered discs ("burger patties") based on dice rolls, and doing this while in outdoor condtions, surviving a 6 inch drop test and completing the course under 5 minutes.
-
-### Highlights:
-- Drive System: 4-wheel mecanum drive for full omnidirectional motion
-- Manipulator: Stepper-driven vertical carriage and dual-servo laser-cut claw for stacking
-- Perception:
-  - IR Sensor Array for line-following and intersection detection
-  - Ultrasonic Sensor for obstacle avoidance
-  - Camera + Raspberry Pi Zero 2 W for dice number detection** via OpenCV
-- Control:
-  - Dual-Arduino architecture to split control and perception logic
-  - Custom finite state machine for real-time sequencing of navigation, pick-up, and delivery tasks
-
-### Achievements:
-- Only team to implement camera-based die recognition
-- Successfully completed full challenge with functional delivery and stacking
-- Designed within a $500 budget, using V-slot aluminum extrusion and modular acrylic mounts
+We used a 4‑wheel mecanum drive for full omnidirectional motion, a stepper‑driven vertical carriage with a dual‑servo laser‑cut claw for stacking, and IR + ultrasonic sensing for line following and obstacle avoidance. I helped design a dual‑Arduino architecture and a custom finite state machine to coordinate navigation, pickup, and delivery, and we were the only team to add a camera + Raspberry Pi Zero 2 W running OpenCV to read the dice automatically (rather than manually program it in). The whole system came together within a 500 dollar budget using V‑slot extrusion and modular acrylic mounts.
 
 👉 [Code Available upon Request] | 📄 [Final Presentation PDF](/files/MAE%20162E%20FINAL%20PRESENTATION.pdf)
 
@@ -47,15 +31,9 @@ For my undergraduate capstone, I was the **mechanical lead** and **co-lead progr
 
 <img src="/images/auto1.jpg" alt="Pink Lemonade Rover" class="content-img" />
 
-This was my first hands-on robotics experience. Our team built an autonomous rover designed to navigate a basic obstacle course and retrieve a cylindrical object. I led the mechanical design using SolidWorks, creating a chassis that integrated all major components: sensors, motors,
-battery pack, and claw. Most parts were custom-fabricated using 3D printing and laser cutting at UCLA's fabrication lab, which also ended up being an introduction to additive manufacturing as well.
+This was my first real hands-on robotics project (what really got me excited about the field)! Our team built a small autonomous rover to navigate a simple obstacle course and retrieve a cylindrical object. I led the mechanical design in SolidWorks, laying out a chassis that cleanly integrated sensors, motors, the battery, and a rubberized gripper, and fabricated most parts with 3D printing and laser cutting at the UCLA makerspace. On the software side, we used an Arduino with ultrasonic sensing for basic autonomous navigation.
 
-### Highlights:
-- Rubberized gripper mechanism for cylindrical object retrieval
-- Autonomous navigation implementation via Arduino and ultrasonic sensing
-- Rapid mechanical design prototyping with Prusa Slicer and UCLA makerspace tools
-
-Overall, we finished **2nd** in the competition out of 8 other UCLA teams.
+We ended up placing 2nd out of 8 teams, and it was a great first taste of end‑to‑end robot design.
 
 <script>
   window.addEventListener('load', function(){

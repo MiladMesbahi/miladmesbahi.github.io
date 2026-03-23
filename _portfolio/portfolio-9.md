@@ -1,18 +1,14 @@
 ---
-title: "MATLAB Quarter Car Model Controls"
-excerpt: "Active Suspension System Design using MATLAB and Simulink"
+title: "Active Suspension Control in MATLAB"
+excerpt: "Quarter-car suspension control design using MATLAB and Simulink."
 collection: portfolio
 category: engineering
-order: 4
+order: 2
 completion_date: 2024-06-01
 ---
 
-### Active Suspension System — Quarter-Car Model (MATLAB + Simulink)
+### Active Suspension (MATLAB + Simulink)
 
-Designed a feedback controller for an active car suspension system using MATLAB and Simulink, with the goal of minimizing vehicle oscillations and thus enhance theoretical passenger comfort.
+This was a fun very controls-oriented project where I played with an active suspension quarter-car model in MATLAB and Simulink to see how much smoother I could make the ride. I built a simple suspension model, then used classic control tools (Bode plots, root locus, etc.) to design a feedback controller that hit targets like low overshoot and fast settling. Most of the work was iterating in SISOTOOL and watching how the virtual car reacted to bumps until it looked like a comfortable ride.
 
 <img src="/images/control0.jpg" alt="car" class="content-image" />
-### Highlights
-- Built and analyzed a quarter-car suspension model using Laplace transforms and transfer functions.
-- Designed classical controllers (Bode, Nyquist, root locus) to meet strict specs: <5% overshoot, <1s settling.
-- Tuned system interactively in MATLAB SISOTOOL; achieved smooth, stable ride response to disturbances.

@@ -6,7 +6,7 @@ category: research
 order: 3
 completion_date: 2024-06-01
 ---
-Served as lead undergraduate researcher at UCLA’s **Thermosciences Laboratory** under Dr. Sungtaek Ju, investigating how string tension, material properties, and morphology influence the flow behavior of liquid desiccants in string-based mass exchangers.  The work focused on understanding capillary-driven film formation, droplet coalescence, and transport efficiency for energy-efficient dehumidification systems.
+As lead undergraduate researcher in UCLA’s Thermosciences Laboratory with Dr. Sungtaek Ju, I studied how liquid films and droplets move along thin strings in string-based dehumidification systems. The broader goal was to understand how string properties and tension affect heat and moisture transfer, with the aim of enabling more energy-efficient air conditioning and climate control.
 
 <div class="glider-contain">
   <div class="glider">
@@ -19,17 +19,7 @@ Served as lead undergraduate researcher at UCLA’s **Thermosciences Laboratory*
   <div role="tablist" class="dots"></div>
 </div>
 
-### Highlights
-
-- **Experimental Design & Execution**
-  - Built a fully controlled setup to measure tension in cotton strings, including 3D printed and laser cut parts through the UCLA maker space.  
-  - Ran stress tests to to quantify how tension alters bead formation, spacing, and motion.
-  - Highlighted a previously overlooked variable (string tension) that did have an impact on fluid flow.
-
-- **Automation & Analysis**
-  - Developed MATLAB image processing algorithms to capture string curvature and automate droplet tracking  
-  - Enabled faster, more consistent quantification of fluid behavior across multiple trials
-  - Helped create lab tutorial videos for future researchers to use for reference.   
+I designed and built a controlled experimental setup (using 3D-printed and laser-cut components) to precisely adjust string tension and observe how it changes droplet formation, spacing, and motion. I developed MATLAB image-processing tools to automatically track droplets and string shape across many trials, making analysis faster and more reliable. I created documents and tutorial videos regarding the lab and workflow for future students to continue working on the project as well.
 
 👉 [GitHub Repository](https://github.com/MiladMesbahi/Thermoscience-Laboratory-MatLab-Processing) | 
 
@@ -46,38 +36,3 @@ Served as lead undergraduate researcher at UCLA’s **Thermosciences Laboratory*
     });
   });
 </script>
-<script>
-  window.addEventListener('load', function() {
-    const imgs = document.querySelectorAll('.glider img.content-image');
-    const updateSizes = () => {
-      const w = window.innerWidth;
-      imgs.forEach(img => {
-        img.style.height = 'auto';
-        img.style.margin = '0.6rem auto';
-        img.style.display = 'block';
-        img.style.borderRadius = '6px';
-        img.style.boxShadow = '0 2px 6px rgba(0, 0, 0, 0.05)';
-
-        // 📱 Mobile (under 768px)
-        if (w < 768) {
-          img.style.width = '50%';
-          img.style.maxWidth = '50%';
-        }
-        // 💻 Tablet (768–1200px)
-        else if (w < 1500) {
-          img.style.width = '40%';
-          img.style.maxWidth = '40%';
-        }
-        // 🖥️ Desktop (1200px and up)
-        else {
-          img.style.width = '28%';
-          img.style.maxWidth = '28%';
-        }
-      });
-    };
-
-    updateSizes();
-    window.addEventListener('resize', updateSizes);
-  });
-</script>
-
