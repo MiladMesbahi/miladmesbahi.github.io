@@ -9,9 +9,9 @@ completion_date:
 
 **ICRA-26 submission accepted!**
 
-We are building teams of autonomous underwater robots that can work together to track and map changing ocean and river environments over many days, even when energy, communication, and sensing are limited. The core idea is to give these robots learning-based decision-making so they can choose where to go and what to measure to get the most useful information with the constrained resources they have.
+We study how fleets of AUVs can map the Douro River plume over multiple days while dealing with strong currents, limited batteries, and intermittent communication. Using years of high‑resolution Delft3D simulations of the Douro estuary as our testbed, we combine a Gaussian process salinity model with a multi‑head deep Q‑network that decides, for each AUV, both where to go and how fast to travel. The policy learns to trade off information gain and energy, so adding more vehicles improves both map error and total mission duration.
 
-Our first paper, accepted to ICRA 2026, shows how multiple robots can learn to map dynamic coastal plumes while balancing map accuracy and battery life. We are now pushing this further by: extending our methods from surface maps to full 3D environments, deploying the system on real hardware, exploring more scalable learned models in place of Gaussian processes, adding denoising for noisy real-world sensors, and running broader comparisons and ablation studies. We are also exploring some theoretical work on multi-agent robot communication and credit assignment.
+Our ICRA 2026 work shows consistent gains over single‑robot and multi‑robot baselines across unseen months and years in the dataset. Ongoing work includes extending from 2D surface maps to 3D fields, testing on real LAUVs, replacing the current GP with more scalable learned models, and digging deeper into multi‑agent communication and credit assignment.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em auto;">
   <iframe 
