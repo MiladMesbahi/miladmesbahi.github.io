@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-*“I repeat, feedback is a method of controlling a system by reinserting into it the results of its past performance ... If the information which proceeds backward ... is able to change the general method and pattern of performance, we have a process which may well be called learning”* — Norbert Wiener
+*“Almost every problem that you come across is befuddled with all kinds of extraneous data ... if you can bring this problem down into the main issues, you can see more clearly what you are trying to do and perhaps find a solution”* — Claude Shannon
 
 <span class="section-label">About.</span> 
 I’m a Robotics M.S. student and researcher in the GRASP Lab at the University of Pennsylvania, advised by Dr. George Pappas. I recieved my B.S. in Mechanical Engineering from UCLA, have spent time at Blue Origin and NASA JPL, and will begin a Ph.D. focused on robot learning in Fall 2026. 
