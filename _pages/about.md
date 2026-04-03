@@ -10,7 +10,7 @@ redirect_from:
 *“Almost every problem that you come across is befuddled with all kinds of extraneous data ... if you can bring this problem down into the main issues, you can see more clearly what you are trying to do and perhaps find a solution”* — Claude Shannon
 
 <span class="section-label">About.</span> 
-I’m a Robotics M.S. student and researcher in the GRASP Lab at the University of Pennsylvania, advised by Dr. George Pappas. I recieved my B.S. in Mechanical Engineering from UCLA, have spent time at Blue Origin and NASA JPL, and will begin a Ph.D. focused on robot learning in Fall 2026. 
+I’m a Robotics M.S. student and researcher in the GRASP Lab at the University of Pennsylvania, advised by Dr. George Pappas. I received my B.S. in Mechanical Engineering from UCLA, have spent time in industry at Blue Origin and NASA JPL (with an upcoming autonomy role at BRINC Drones in Summer 2026), and will be joining the University of Washington Computer Science & Engineering robotics group as a Ph.D. student advised by Siddhartha Srinivasa in Fall 2026.
 
 <span class="section-label">Why Robotics.</span>  I’ve always been fascinated by how living systems solve problems. Slime molds (a single-celled organism!), for instance, can solve shortest path problems to their favorite food using simple chemical signals; ants build sophisticated societies from very limited individual capabilities; and plants, despite lacking a nervous system entirely, still adapt beautifully and arguably more effectively than anything else on Earth.
 
