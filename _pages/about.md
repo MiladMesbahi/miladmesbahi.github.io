@@ -21,7 +21,7 @@ I work across the stack, with a focus on autonomy at the intersection of learnin
 
 + Optimal control & reinforcement learning
 + Dexterous manipulation
-+ Representations & world modelling
++ Representations & world models
 + Multi-agent systems
 + Robustness & generalization
 
